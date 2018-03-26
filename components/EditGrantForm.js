@@ -8,6 +8,7 @@ import DayOptions from './DayOptions';
 import YearOptions from './YearOptions';
 import PurposeOptions from './PurposeOptions';
 import ReminderOptions from './ReminderOptions';
+import FormAlert from './FormAlert';
 
 class EditGrantForm extends React.PureComponent {
 
@@ -24,7 +25,8 @@ class EditGrantForm extends React.PureComponent {
 			grant: {
 				...grant,
 				date: moment(grant.date),
-			}
+			},
+			alertMsg: '',
 		}
 	}
 
@@ -35,6 +37,7 @@ class EditGrantForm extends React.PureComponent {
 			date: this.state.grant.date.valueOf(),
 		}
 
+		if (!grant.name) return this.setState({ alertMsg: 'please provide a grant name' })
 		this.props.updateGrant(grant.id, grant)
 		this.props.updateGrantToEdit('');
 	}
@@ -49,7 +52,7 @@ class EditGrantForm extends React.PureComponent {
 	render() {
 
 		const { purposes, updateGrantToEdit } = this.props;
-		const { grant } = this.state;
+		const { grant, alertMsg } = this.state;
 
 		return (
 			<tr>
@@ -60,9 +63,19 @@ class EditGrantForm extends React.PureComponent {
 							<p className="close" onClick={() => updateGrantToEdit('')}>x close</p>
 						</div>
 						<div className="row">
-							<MonthOptions selected={moment(grant.date).month()} handleChange={this.handleGrantFormChange} />
-							<DayOptions date={grant.date} selected={moment(grant.date).date()} handleChange={this.handleGrantFormChange} />
-							<YearOptions selected={moment(grant.date).year()} handleChange={this.handleGrantFormChange} />
+							<MonthOptions
+								selected={moment(grant.date).month()}
+								handleChange={this.handleGrantFormChange}
+							/>
+							<DayOptions
+								date={grant.date}
+								selected={moment(grant.date).date()}
+								handleChange={this.handleGrantFormChange}
+							/>
+							<YearOptions
+								selected={moment(grant.date).year()}
+								handleChange={this.handleGrantFormChange}
+							/>
 							<input
 								className="u-full-width four columns"
 								type="text"
@@ -90,6 +103,7 @@ class EditGrantForm extends React.PureComponent {
 							<button className="button" type="submit">Update</button>
 							<button className="button button--delete" onClick={this.deleteGrant}>Delete</button>
 						</div>
+						<FormAlert message={alertMsg} />
 					</form>
 
 					<style jsx>{`

@@ -24,16 +24,34 @@ describe('EditGrantForm', () => {
 		}
 		const wrapper = shallowRenderEditGrantForm({ grant });
 
-		// name
+		// expect name
 		const nameInput = wrapper.find('[data-test="name"]');
 		expect(nameInput.getElement().props.value).toBe(name);
 
-		// notes
+		// expect notes
 		const notesInput = wrapper.find('[data-test="notes"]');
 		expect(notesInput.getElement().props.value).toBe(notes);
 	})
 
-	it('should handle submit')
+	it('should display alert if user does not inlude a grant name', () => {
+		const instance = shallowRenderEditGrantForm().instance();
+
+		// set state
+		const grant = {
+			...basicGrant,
+			date: moment(basicGrant.date),
+			name: '',
+		}
+		instance.setState({ grant });
+
+		// submit event
+		const e = {
+			preventDefault: () => { },
+		}
+		instance.handleSubmit(e);
+
+		expect(instance.state.alertMsg).toEqual('please provide a grant name');
+	})
 
 })
 

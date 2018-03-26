@@ -133,6 +133,9 @@ ShallowWrapper {
               Delete
             </button>
           </div>
+          <FormAlert
+            message=""
+          />
         </form>
         <JSXStyle
           css="form.jsx-1212697673{background:HSLA(208,100%,50%,.1);border-radius:6px;padding:10px;}.row.jsx-1212697673{margin:10px 0;}.top-row.jsx-1212697673{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.close.jsx-1212697673:hover{cursor:pointer;}.buttons.jsx-1212697673{margin-top:8px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}button.button--delete.jsx-1212697673{background:HSLA(0,100%,69%,0.1);}"
@@ -234,6 +237,9 @@ ShallowWrapper {
                 Delete
               </button>
             </div>
+            <FormAlert
+              message=""
+            />
           </form>,
           <JSXStyle
             css="form.jsx-1212697673{background:HSLA(208,100%,50%,.1);border-radius:6px;padding:10px;}.row.jsx-1212697673{margin:10px 0;}.top-row.jsx-1212697673{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.close.jsx-1212697673:hover{cursor:pointer;}.buttons.jsx-1212697673{margin-top:8px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}button.button--delete.jsx-1212697673{background:HSLA(0,100%,69%,0.1);}"
@@ -334,6 +340,9 @@ ShallowWrapper {
                   Delete
                 </button>
               </div>,
+              <FormAlert
+                message=""
+              />,
             ],
             "className": "jsx-1212697673",
             "onSubmit": [Function],
@@ -591,6 +600,17 @@ ShallowWrapper {
               ],
               "type": "div",
             },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "message": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
           ],
           "type": "form",
         },
@@ -708,6 +728,9 @@ ShallowWrapper {
                 Delete
               </button>
             </div>
+            <FormAlert
+              message=""
+            />
           </form>
           <JSXStyle
             css="form.jsx-1212697673{background:HSLA(208,100%,50%,.1);border-radius:6px;padding:10px;}.row.jsx-1212697673{margin:10px 0;}.top-row.jsx-1212697673{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.close.jsx-1212697673:hover{cursor:pointer;}.buttons.jsx-1212697673{margin-top:8px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}button.button--delete.jsx-1212697673{background:HSLA(0,100%,69%,0.1);}"
@@ -809,6 +832,9 @@ ShallowWrapper {
                   Delete
                 </button>
               </div>
+              <FormAlert
+                message=""
+              />
             </form>,
             <JSXStyle
               css="form.jsx-1212697673{background:HSLA(208,100%,50%,.1);border-radius:6px;padding:10px;}.row.jsx-1212697673{margin:10px 0;}.top-row.jsx-1212697673{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.close.jsx-1212697673:hover{cursor:pointer;}.buttons.jsx-1212697673{margin-top:8px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}button.button--delete.jsx-1212697673{background:HSLA(0,100%,69%,0.1);}"
@@ -909,6 +935,9 @@ ShallowWrapper {
                     Delete
                   </button>
                 </div>,
+                <FormAlert
+                  message=""
+                />,
               ],
               "className": "jsx-1212697673",
               "onSubmit": [Function],
@@ -1165,6 +1194,17 @@ ShallowWrapper {
                   },
                 ],
                 "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "message": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
               },
             ],
             "type": "form",

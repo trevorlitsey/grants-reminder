@@ -20,7 +20,7 @@ const DayOptions = (props) => {
 
 DayOptions.propTypes = {
 	date: object,
-	selected: number,
+	selected: number || string,
 	handleChange: func.isRequired,
 }
 
