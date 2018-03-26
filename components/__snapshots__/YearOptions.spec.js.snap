@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YearOptions should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <YearOptions
+    handleChange={[Function]}
+    selected={2018}
+    year={2018}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <option
+          data-test="year"
+          value={2018}
+        >
+          2018
+        </option>,
+        <option
+          data-test="year"
+          value={2019}
+        >
+          2019
+        </option>,
+        <option
+          data-test="year"
+          value={2020}
+        >
+          2020
+        </option>,
+        <option
+          data-test="year"
+          value={2021}
+        >
+          2021
+        </option>,
+        <option
+          data-test="year"
+          value={2022}
+        >
+          2022
+        </option>,
+      ],
+      "className": "u-full-width two columns",
+      "name": "year",
+      "onChange": [Function],
+      "value": 2018,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "2018",
+        "nodeType": "host",
+        "props": Object {
+          "children": 2018,
+          "data-test": "year",
+          "value": 2018,
+        },
+        "ref": null,
+        "rendered": 2018,
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": "2019",
+        "nodeType": "host",
+        "props": Object {
+          "children": 2019,
+          "data-test": "year",
+          "value": 2019,
+        },
+        "ref": null,
+        "rendered": 2019,
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": "2020",
+        "nodeType": "host",
+        "props": Object {
+          "children": 2020,
+          "data-test": "year",
+          "value": 2020,
+        },
+        "ref": null,
+        "rendered": 2020,
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": "2021",
+        "nodeType": "host",
+        "props": Object {
+          "children": 2021,
+          "data-test": "year",
+          "value": 2021,
+        },
+        "ref": null,
+        "rendered": 2021,
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": "2022",
+        "nodeType": "host",
+        "props": Object {
+          "children": 2022,
+          "data-test": "year",
+          "value": 2022,
+        },
+        "ref": null,
+        "rendered": 2022,
+        "type": "option",
+      },
+    ],
+    "type": "select",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <option
+            data-test="year"
+            value={2018}
+          >
+            2018
+          </option>,
+          <option
+            data-test="year"
+            value={2019}
+          >
+            2019
+          </option>,
+          <option
+            data-test="year"
+            value={2020}
+          >
+            2020
+          </option>,
+          <option
+            data-test="year"
+            value={2021}
+          >
+            2021
+          </option>,
+          <option
+            data-test="year"
+            value={2022}
+          >
+            2022
+          </option>,
+        ],
+        "className": "u-full-width two columns",
+        "name": "year",
+        "onChange": [Function],
+        "value": 2018,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "2018",
+          "nodeType": "host",
+          "props": Object {
+            "children": 2018,
+            "data-test": "year",
+            "value": 2018,
+          },
+          "ref": null,
+          "rendered": 2018,
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "2019",
+          "nodeType": "host",
+          "props": Object {
+            "children": 2019,
+            "data-test": "year",
+            "value": 2019,
+          },
+          "ref": null,
+          "rendered": 2019,
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "2020",
+          "nodeType": "host",
+          "props": Object {
+            "children": 2020,
+            "data-test": "year",
+            "value": 2020,
+          },
+          "ref": null,
+          "rendered": 2020,
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "2021",
+          "nodeType": "host",
+          "props": Object {
+            "children": 2021,
+            "data-test": "year",
+            "value": 2021,
+          },
+          "ref": null,
+          "rendered": 2021,
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "2022",
+          "nodeType": "host",
+          "props": Object {
+            "children": 2022,
+            "data-test": "year",
+            "value": 2022,
+          },
+          "ref": null,
+          "rendered": 2022,
+          "type": "option",
+        },
+      ],
+      "type": "select",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

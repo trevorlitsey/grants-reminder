@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormAlert should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FormAlert
+    message="what a message!"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="jsx-2251522925"
+        >
+          what a message!
+        </p>,
+        <JSXStyle
+          css="p.jsx-2251522925{margin:2px 3px;line-height:1;color:HSLA(0,100%,69%,1);text-decoration:underline;-webkit-transition:all 2s;transition:all 2s;}"
+          styleId="2251522925"
+        />,
+      ],
+      "className": "jsx-2251522925",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "what a message!",
+          "className": "jsx-2251522925",
+        },
+        "ref": null,
+        "rendered": "what a message!",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "css": "p.jsx-2251522925{margin:2px 3px;line-height:1;color:HSLA(0,100%,69%,1);text-decoration:underline;-webkit-transition:all 2s;transition:all 2s;}",
+          "styleId": "2251522925",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="jsx-2251522925"
+          >
+            what a message!
+          </p>,
+          <JSXStyle
+            css="p.jsx-2251522925{margin:2px 3px;line-height:1;color:HSLA(0,100%,69%,1);text-decoration:underline;-webkit-transition:all 2s;transition:all 2s;}"
+            styleId="2251522925"
+          />,
+        ],
+        "className": "jsx-2251522925",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "what a message!",
+            "className": "jsx-2251522925",
+          },
+          "ref": null,
+          "rendered": "what a message!",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "css": "p.jsx-2251522925{margin:2px 3px;line-height:1;color:HSLA(0,100%,69%,1);text-decoration:underline;-webkit-transition:all 2s;transition:all 2s;}",
+            "styleId": "2251522925",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

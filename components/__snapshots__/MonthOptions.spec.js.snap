@@ -1,0 +1,470 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MonthOptions should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MonthOptions
+    handleChange={[Function]}
+    selected={10}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <option
+          value="0"
+        >
+          Jan
+        </option>,
+        <option
+          value="1"
+        >
+          Feb
+        </option>,
+        <option
+          value="2"
+        >
+          Mar
+        </option>,
+        <option
+          value="3"
+        >
+          Apr
+        </option>,
+        <option
+          value="4"
+        >
+          May
+        </option>,
+        <option
+          value="5"
+        >
+          Jun
+        </option>,
+        <option
+          value="6"
+        >
+          Jul
+        </option>,
+        <option
+          value="7"
+        >
+          Aug
+        </option>,
+        <option
+          value="8"
+        >
+          Sep
+        </option>,
+        <option
+          value="9"
+        >
+          Oct
+        </option>,
+        <option
+          value="10"
+        >
+          Nov
+        </option>,
+        <option
+          value="11"
+        >
+          Dec
+        </option>,
+      ],
+      "className": "u-full-width two columns",
+      "name": "month",
+      "onChange": [Function],
+      "value": 10,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Jan",
+          "value": "0",
+        },
+        "ref": null,
+        "rendered": "Jan",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Feb",
+          "value": "1",
+        },
+        "ref": null,
+        "rendered": "Feb",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Mar",
+          "value": "2",
+        },
+        "ref": null,
+        "rendered": "Mar",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Apr",
+          "value": "3",
+        },
+        "ref": null,
+        "rendered": "Apr",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "May",
+          "value": "4",
+        },
+        "ref": null,
+        "rendered": "May",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Jun",
+          "value": "5",
+        },
+        "ref": null,
+        "rendered": "Jun",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Jul",
+          "value": "6",
+        },
+        "ref": null,
+        "rendered": "Jul",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Aug",
+          "value": "7",
+        },
+        "ref": null,
+        "rendered": "Aug",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Sep",
+          "value": "8",
+        },
+        "ref": null,
+        "rendered": "Sep",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Oct",
+          "value": "9",
+        },
+        "ref": null,
+        "rendered": "Oct",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Nov",
+          "value": "10",
+        },
+        "ref": null,
+        "rendered": "Nov",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Dec",
+          "value": "11",
+        },
+        "ref": null,
+        "rendered": "Dec",
+        "type": "option",
+      },
+    ],
+    "type": "select",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <option
+            value="0"
+          >
+            Jan
+          </option>,
+          <option
+            value="1"
+          >
+            Feb
+          </option>,
+          <option
+            value="2"
+          >
+            Mar
+          </option>,
+          <option
+            value="3"
+          >
+            Apr
+          </option>,
+          <option
+            value="4"
+          >
+            May
+          </option>,
+          <option
+            value="5"
+          >
+            Jun
+          </option>,
+          <option
+            value="6"
+          >
+            Jul
+          </option>,
+          <option
+            value="7"
+          >
+            Aug
+          </option>,
+          <option
+            value="8"
+          >
+            Sep
+          </option>,
+          <option
+            value="9"
+          >
+            Oct
+          </option>,
+          <option
+            value="10"
+          >
+            Nov
+          </option>,
+          <option
+            value="11"
+          >
+            Dec
+          </option>,
+        ],
+        "className": "u-full-width two columns",
+        "name": "month",
+        "onChange": [Function],
+        "value": 10,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Jan",
+            "value": "0",
+          },
+          "ref": null,
+          "rendered": "Jan",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Feb",
+            "value": "1",
+          },
+          "ref": null,
+          "rendered": "Feb",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Mar",
+            "value": "2",
+          },
+          "ref": null,
+          "rendered": "Mar",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Apr",
+            "value": "3",
+          },
+          "ref": null,
+          "rendered": "Apr",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "May",
+            "value": "4",
+          },
+          "ref": null,
+          "rendered": "May",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Jun",
+            "value": "5",
+          },
+          "ref": null,
+          "rendered": "Jun",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Jul",
+            "value": "6",
+          },
+          "ref": null,
+          "rendered": "Jul",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Aug",
+            "value": "7",
+          },
+          "ref": null,
+          "rendered": "Aug",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sep",
+            "value": "8",
+          },
+          "ref": null,
+          "rendered": "Sep",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Oct",
+            "value": "9",
+          },
+          "ref": null,
+          "rendered": "Oct",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Nov",
+            "value": "10",
+          },
+          "ref": null,
+          "rendered": "Nov",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Dec",
+            "value": "11",
+          },
+          "ref": null,
+          "rendered": "Dec",
+          "type": "option",
+        },
+      ],
+      "type": "select",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

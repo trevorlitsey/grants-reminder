@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`purposes should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Purposes
+    addNewPurpose={[Function]}
+    deletePurpose={[Function]}
+    purposes={
+      Object {
+        "one": "General Operations",
+        "three": "Special Event",
+        "two": "Education",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="jsx-2360435603 purposes"
+        >
+          <PurposeCard
+            deletePurpose={[Function]}
+            id="one"
+            purpose="General Operations"
+          />
+          <PurposeCard
+            deletePurpose={[Function]}
+            id="two"
+            purpose="Education"
+          />
+          <PurposeCard
+            deletePurpose={[Function]}
+            id="three"
+            purpose="Special Event"
+          />
+          <AddPurposeForm
+            addNewPurpose={[Function]}
+          />
+        </div>,
+        <JSXStyle
+          css=".purposes.jsx-2360435603{margin:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}"
+          styleId="2360435603"
+        />,
+      ],
+      "className": "jsx-2360435603 well",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            Array [
+              <PurposeCard
+                deletePurpose={[Function]}
+                id="one"
+                purpose="General Operations"
+              />,
+              <PurposeCard
+                deletePurpose={[Function]}
+                id="two"
+                purpose="Education"
+              />,
+              <PurposeCard
+                deletePurpose={[Function]}
+                id="three"
+                purpose="Special Event"
+              />,
+            ],
+            <AddPurposeForm
+              addNewPurpose={[Function]}
+            />,
+          ],
+          "className": "jsx-2360435603 purposes",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "one",
+            "nodeType": "function",
+            "props": Object {
+              "deletePurpose": [Function],
+              "id": "one",
+              "purpose": "General Operations",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "two",
+            "nodeType": "function",
+            "props": Object {
+              "deletePurpose": [Function],
+              "id": "two",
+              "purpose": "Education",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "three",
+            "nodeType": "function",
+            "props": Object {
+              "deletePurpose": [Function],
+              "id": "three",
+              "purpose": "Special Event",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "addNewPurpose": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "css": ".purposes.jsx-2360435603{margin:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}",
+          "styleId": "2360435603",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="jsx-2360435603 purposes"
+          >
+            <PurposeCard
+              deletePurpose={[Function]}
+              id="one"
+              purpose="General Operations"
+            />
+            <PurposeCard
+              deletePurpose={[Function]}
+              id="two"
+              purpose="Education"
+            />
+            <PurposeCard
+              deletePurpose={[Function]}
+              id="three"
+              purpose="Special Event"
+            />
+            <AddPurposeForm
+              addNewPurpose={[Function]}
+            />
+          </div>,
+          <JSXStyle
+            css=".purposes.jsx-2360435603{margin:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}"
+            styleId="2360435603"
+          />,
+        ],
+        "className": "jsx-2360435603 well",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              Array [
+                <PurposeCard
+                  deletePurpose={[Function]}
+                  id="one"
+                  purpose="General Operations"
+                />,
+                <PurposeCard
+                  deletePurpose={[Function]}
+                  id="two"
+                  purpose="Education"
+                />,
+                <PurposeCard
+                  deletePurpose={[Function]}
+                  id="three"
+                  purpose="Special Event"
+                />,
+              ],
+              <AddPurposeForm
+                addNewPurpose={[Function]}
+              />,
+            ],
+            "className": "jsx-2360435603 purposes",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "one",
+              "nodeType": "function",
+              "props": Object {
+                "deletePurpose": [Function],
+                "id": "one",
+                "purpose": "General Operations",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "two",
+              "nodeType": "function",
+              "props": Object {
+                "deletePurpose": [Function],
+                "id": "two",
+                "purpose": "Education",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "three",
+              "nodeType": "function",
+              "props": Object {
+                "deletePurpose": [Function],
+                "id": "three",
+                "purpose": "Special Event",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "addNewPurpose": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "css": ".purposes.jsx-2360435603{margin:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}",
+            "styleId": "2360435603",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

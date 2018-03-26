@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PurposeOptions should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PurposeOptions
+    handleChange={[Function]}
+    purposes={
+      Object {
+        "one": "education",
+        "three": "development",
+        "two": "capital campaign",
+      }
+    }
+    selected="development"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <option>
+          Purpose
+        </option>,
+        Array [
+          <option
+            data-test="purpose-option"
+            value="education"
+          >
+            education
+          </option>,
+          <option
+            data-test="purpose-option"
+            value="capital campaign"
+          >
+            capital campaign
+          </option>,
+          <option
+            data-test="purpose-option"
+            value="development"
+          >
+            development
+          </option>,
+        ],
+      ],
+      "className": "u-full-width two columns",
+      "name": "purpose",
+      "onChange": [Function],
+      "value": "development",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Purpose",
+        },
+        "ref": null,
+        "rendered": "Purpose",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": "one",
+        "nodeType": "host",
+        "props": Object {
+          "children": "education",
+          "data-test": "purpose-option",
+          "value": "education",
+        },
+        "ref": null,
+        "rendered": "education",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": "two",
+        "nodeType": "host",
+        "props": Object {
+          "children": "capital campaign",
+          "data-test": "purpose-option",
+          "value": "capital campaign",
+        },
+        "ref": null,
+        "rendered": "capital campaign",
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": "three",
+        "nodeType": "host",
+        "props": Object {
+          "children": "development",
+          "data-test": "purpose-option",
+          "value": "development",
+        },
+        "ref": null,
+        "rendered": "development",
+        "type": "option",
+      },
+    ],
+    "type": "select",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <option>
+            Purpose
+          </option>,
+          Array [
+            <option
+              data-test="purpose-option"
+              value="education"
+            >
+              education
+            </option>,
+            <option
+              data-test="purpose-option"
+              value="capital campaign"
+            >
+              capital campaign
+            </option>,
+            <option
+              data-test="purpose-option"
+              value="development"
+            >
+              development
+            </option>,
+          ],
+        ],
+        "className": "u-full-width two columns",
+        "name": "purpose",
+        "onChange": [Function],
+        "value": "development",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Purpose",
+          },
+          "ref": null,
+          "rendered": "Purpose",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "one",
+          "nodeType": "host",
+          "props": Object {
+            "children": "education",
+            "data-test": "purpose-option",
+            "value": "education",
+          },
+          "ref": null,
+          "rendered": "education",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "two",
+          "nodeType": "host",
+          "props": Object {
+            "children": "capital campaign",
+            "data-test": "purpose-option",
+            "value": "capital campaign",
+          },
+          "ref": null,
+          "rendered": "capital campaign",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "three",
+          "nodeType": "host",
+          "props": Object {
+            "children": "development",
+            "data-test": "purpose-option",
+            "value": "development",
+          },
+          "ref": null,
+          "rendered": "development",
+          "type": "option",
+        },
+      ],
+      "type": "select",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

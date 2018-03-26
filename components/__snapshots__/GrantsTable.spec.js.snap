@@ -1,0 +1,1462 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GrantsTable should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <GrantsTable
+    changesPending={false}
+    grantToEdit="jeesc9a9"
+    grants={
+      Object {
+        "jeesc9a9": Object {
+          "date": 1523030464444,
+          "id": "jeesc9a9",
+          "name": "a grant due in june!",
+          "notes": "so many notes",
+          "purpose": "General Operations",
+          "reminders": Object {
+            "oneMonth": false,
+            "oneWeek": true,
+            "twoMonths": false,
+            "twoWeeks": false,
+          },
+        },
+        "jeesm1xk": Object {
+          "date": 1552338664444,
+          "id": "jeesm1xk",
+          "name": "yep",
+          "notes": "notes!!",
+          "purpose": "Education",
+          "reminders": Object {
+            "oneMonth": false,
+            "oneWeek": false,
+            "twoMonths": true,
+            "twoWeeks": false,
+          },
+        },
+        "jek5wems": Object {
+          "date": 1662737764444,
+          "id": "jek5wems",
+          "name": "a great name",
+          "notes": "these are incredible notes!",
+          "purpose": "General Operations",
+          "reminders": Object {
+            "oneMonth": false,
+            "oneWeek": false,
+            "twoMonths": false,
+            "twoWeeks": false,
+          },
+        },
+        "oneMonth": Object {
+          "date": 1523077200000,
+          "id": "oneMonth",
+          "name": "Ditmas",
+          "notes": "",
+          "purpose": "general operations",
+          "reminders": Object {
+            "oneMonth": true,
+            "oneWeek": true,
+            "twoMonths": false,
+            "twoWeeks": false,
+          },
+        },
+        "twoMonths": Object {
+          "date": 1525669200000,
+          "id": "twoMonths",
+          "name": "NEA",
+          "notes": "",
+          "purpose": "general operations",
+          "reminders": Object {
+            "oneMonth": false,
+            "oneWeek": false,
+            "twoMonths": true,
+            "twoWeeks": false,
+          },
+        },
+      }
+    }
+    purposes={
+      Object {
+        "one": "purpose1!",
+        "three": "purpose3!",
+        "two": "purpose2!",
+      }
+    }
+    updateGrant={[Function]}
+    updateGrantToEdit={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h4
+          className="title"
+        >
+          Grants
+        </h4>,
+        <table
+          className="jsx-688206784 u-full-width"
+        >
+          <thead
+            className="jsx-688206784"
+          >
+            <tr
+              className="jsx-688206784"
+            >
+              <th
+                className="jsx-688206784"
+              >
+                date
+              </th>
+              <th
+                className="jsx-688206784"
+              >
+                name
+              </th>
+              <th
+                className="jsx-688206784"
+              >
+                purpose
+              </th>
+              <th
+                className="jsx-688206784 notes"
+              >
+                notes
+              </th>
+              <th
+                className="jsx-688206784"
+              />
+            </tr>
+          </thead>
+          <tbody
+            className="jsx-688206784"
+          >
+            <EditGrantForm
+              changesPending={false}
+              grant={
+                Object {
+                  "date": 1523030464444,
+                  "id": "jeesc9a9",
+                  "name": "a grant due in june!",
+                  "notes": "so many notes",
+                  "purpose": "General Operations",
+                  "reminders": Object {
+                    "oneMonth": false,
+                    "oneWeek": true,
+                    "twoMonths": false,
+                    "twoWeeks": false,
+                  },
+                }
+              }
+              purposes={
+                Object {
+                  "one": "purpose1!",
+                  "three": "purpose3!",
+                  "two": "purpose2!",
+                }
+              }
+              updateGrant={[Function]}
+              updateGrantToEdit={[Function]}
+            />
+            <GrantsTableRow
+              date={1523077200000}
+              id="oneMonth"
+              name="Ditmas"
+              notes=""
+              purpose="general operations"
+              reminders={
+                Object {
+                  "oneMonth": true,
+                  "oneWeek": true,
+                  "twoMonths": false,
+                  "twoWeeks": false,
+                }
+              }
+              updateGrantToEdit={[Function]}
+            />
+            <GrantsTableRow
+              date={1525669200000}
+              id="twoMonths"
+              name="NEA"
+              notes=""
+              purpose="general operations"
+              reminders={
+                Object {
+                  "oneMonth": false,
+                  "oneWeek": false,
+                  "twoMonths": true,
+                  "twoWeeks": false,
+                }
+              }
+              updateGrantToEdit={[Function]}
+            />
+            <GrantsTableRow
+              date={1552338664444}
+              id="jeesm1xk"
+              name="yep"
+              notes="notes!!"
+              purpose="Education"
+              reminders={
+                Object {
+                  "oneMonth": false,
+                  "oneWeek": false,
+                  "twoMonths": true,
+                  "twoWeeks": false,
+                }
+              }
+              updateGrantToEdit={[Function]}
+            />
+            <GrantsTableRow
+              date={1662737764444}
+              id="jek5wems"
+              name="a great name"
+              notes="these are incredible notes!"
+              purpose="General Operations"
+              reminders={
+                Object {
+                  "oneMonth": false,
+                  "oneWeek": false,
+                  "twoMonths": false,
+                  "twoWeeks": false,
+                }
+              }
+              updateGrantToEdit={[Function]}
+            />
+          </tbody>
+          <JSXStyle
+            css=".title{text-align:center;font-weight:300;text-decoration:underline;}a{text-decoration:underline;}a:hover{cursor:pointer;}th,td{padding:10px 8px;}th{text-decoration:underline;}.grant-name{font-weight:400;}@media (max-width:550px){.notes{display:none;width:0;height:0;opacity:0;visibility:collapse;}}"
+            styleId="688206784"
+          />
+        </table>,
+      ],
+      "className": "u-full-width grants-table",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Grants",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Grants",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <thead
+              className="jsx-688206784"
+            >
+              <tr
+                className="jsx-688206784"
+              >
+                <th
+                  className="jsx-688206784"
+                >
+                  date
+                </th>
+                <th
+                  className="jsx-688206784"
+                >
+                  name
+                </th>
+                <th
+                  className="jsx-688206784"
+                >
+                  purpose
+                </th>
+                <th
+                  className="jsx-688206784 notes"
+                >
+                  notes
+                </th>
+                <th
+                  className="jsx-688206784"
+                />
+              </tr>
+            </thead>,
+            <tbody
+              className="jsx-688206784"
+            >
+              <EditGrantForm
+                changesPending={false}
+                grant={
+                  Object {
+                    "date": 1523030464444,
+                    "id": "jeesc9a9",
+                    "name": "a grant due in june!",
+                    "notes": "so many notes",
+                    "purpose": "General Operations",
+                    "reminders": Object {
+                      "oneMonth": false,
+                      "oneWeek": true,
+                      "twoMonths": false,
+                      "twoWeeks": false,
+                    },
+                  }
+                }
+                purposes={
+                  Object {
+                    "one": "purpose1!",
+                    "three": "purpose3!",
+                    "two": "purpose2!",
+                  }
+                }
+                updateGrant={[Function]}
+                updateGrantToEdit={[Function]}
+              />
+              <GrantsTableRow
+                date={1523077200000}
+                id="oneMonth"
+                name="Ditmas"
+                notes=""
+                purpose="general operations"
+                reminders={
+                  Object {
+                    "oneMonth": true,
+                    "oneWeek": true,
+                    "twoMonths": false,
+                    "twoWeeks": false,
+                  }
+                }
+                updateGrantToEdit={[Function]}
+              />
+              <GrantsTableRow
+                date={1525669200000}
+                id="twoMonths"
+                name="NEA"
+                notes=""
+                purpose="general operations"
+                reminders={
+                  Object {
+                    "oneMonth": false,
+                    "oneWeek": false,
+                    "twoMonths": true,
+                    "twoWeeks": false,
+                  }
+                }
+                updateGrantToEdit={[Function]}
+              />
+              <GrantsTableRow
+                date={1552338664444}
+                id="jeesm1xk"
+                name="yep"
+                notes="notes!!"
+                purpose="Education"
+                reminders={
+                  Object {
+                    "oneMonth": false,
+                    "oneWeek": false,
+                    "twoMonths": true,
+                    "twoWeeks": false,
+                  }
+                }
+                updateGrantToEdit={[Function]}
+              />
+              <GrantsTableRow
+                date={1662737764444}
+                id="jek5wems"
+                name="a great name"
+                notes="these are incredible notes!"
+                purpose="General Operations"
+                reminders={
+                  Object {
+                    "oneMonth": false,
+                    "oneWeek": false,
+                    "twoMonths": false,
+                    "twoWeeks": false,
+                  }
+                }
+                updateGrantToEdit={[Function]}
+              />
+            </tbody>,
+            <JSXStyle
+              css=".title{text-align:center;font-weight:300;text-decoration:underline;}a{text-decoration:underline;}a:hover{cursor:pointer;}th,td{padding:10px 8px;}th{text-decoration:underline;}.grant-name{font-weight:400;}@media (max-width:550px){.notes{display:none;width:0;height:0;opacity:0;visibility:collapse;}}"
+              styleId="688206784"
+            />,
+          ],
+          "className": "jsx-688206784 u-full-width",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tr
+                className="jsx-688206784"
+              >
+                <th
+                  className="jsx-688206784"
+                >
+                  date
+                </th>
+                <th
+                  className="jsx-688206784"
+                >
+                  name
+                </th>
+                <th
+                  className="jsx-688206784"
+                >
+                  purpose
+                </th>
+                <th
+                  className="jsx-688206784 notes"
+                >
+                  notes
+                </th>
+                <th
+                  className="jsx-688206784"
+                />
+              </tr>,
+              "className": "jsx-688206784",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <th
+                    className="jsx-688206784"
+                  >
+                    date
+                  </th>,
+                  <th
+                    className="jsx-688206784"
+                  >
+                    name
+                  </th>,
+                  <th
+                    className="jsx-688206784"
+                  >
+                    purpose
+                  </th>,
+                  <th
+                    className="jsx-688206784 notes"
+                  >
+                    notes
+                  </th>,
+                  <th
+                    className="jsx-688206784"
+                  />,
+                ],
+                "className": "jsx-688206784",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "date",
+                    "className": "jsx-688206784",
+                  },
+                  "ref": null,
+                  "rendered": "date",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "name",
+                    "className": "jsx-688206784",
+                  },
+                  "ref": null,
+                  "rendered": "name",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "purpose",
+                    "className": "jsx-688206784",
+                  },
+                  "ref": null,
+                  "rendered": "purpose",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "notes",
+                    "className": "jsx-688206784 notes",
+                  },
+                  "ref": null,
+                  "rendered": "notes",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "jsx-688206784",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "th",
+                },
+              ],
+              "type": "tr",
+            },
+            "type": "thead",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <EditGrantForm
+                  changesPending={false}
+                  grant={
+                    Object {
+                      "date": 1523030464444,
+                      "id": "jeesc9a9",
+                      "name": "a grant due in june!",
+                      "notes": "so many notes",
+                      "purpose": "General Operations",
+                      "reminders": Object {
+                        "oneMonth": false,
+                        "oneWeek": true,
+                        "twoMonths": false,
+                        "twoWeeks": false,
+                      },
+                    }
+                  }
+                  purposes={
+                    Object {
+                      "one": "purpose1!",
+                      "three": "purpose3!",
+                      "two": "purpose2!",
+                    }
+                  }
+                  updateGrant={[Function]}
+                  updateGrantToEdit={[Function]}
+                />,
+                <GrantsTableRow
+                  date={1523077200000}
+                  id="oneMonth"
+                  name="Ditmas"
+                  notes=""
+                  purpose="general operations"
+                  reminders={
+                    Object {
+                      "oneMonth": true,
+                      "oneWeek": true,
+                      "twoMonths": false,
+                      "twoWeeks": false,
+                    }
+                  }
+                  updateGrantToEdit={[Function]}
+                />,
+                <GrantsTableRow
+                  date={1525669200000}
+                  id="twoMonths"
+                  name="NEA"
+                  notes=""
+                  purpose="general operations"
+                  reminders={
+                    Object {
+                      "oneMonth": false,
+                      "oneWeek": false,
+                      "twoMonths": true,
+                      "twoWeeks": false,
+                    }
+                  }
+                  updateGrantToEdit={[Function]}
+                />,
+                <GrantsTableRow
+                  date={1552338664444}
+                  id="jeesm1xk"
+                  name="yep"
+                  notes="notes!!"
+                  purpose="Education"
+                  reminders={
+                    Object {
+                      "oneMonth": false,
+                      "oneWeek": false,
+                      "twoMonths": true,
+                      "twoWeeks": false,
+                    }
+                  }
+                  updateGrantToEdit={[Function]}
+                />,
+                <GrantsTableRow
+                  date={1662737764444}
+                  id="jek5wems"
+                  name="a great name"
+                  notes="these are incredible notes!"
+                  purpose="General Operations"
+                  reminders={
+                    Object {
+                      "oneMonth": false,
+                      "oneWeek": false,
+                      "twoMonths": false,
+                      "twoWeeks": false,
+                    }
+                  }
+                  updateGrantToEdit={[Function]}
+                />,
+              ],
+              "className": "jsx-688206784",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "jeesc9a9",
+                "nodeType": "class",
+                "props": Object {
+                  "changesPending": false,
+                  "grant": Object {
+                    "date": 1523030464444,
+                    "id": "jeesc9a9",
+                    "name": "a grant due in june!",
+                    "notes": "so many notes",
+                    "purpose": "General Operations",
+                    "reminders": Object {
+                      "oneMonth": false,
+                      "oneWeek": true,
+                      "twoMonths": false,
+                      "twoWeeks": false,
+                    },
+                  },
+                  "purposes": Object {
+                    "one": "purpose1!",
+                    "three": "purpose3!",
+                    "two": "purpose2!",
+                  },
+                  "updateGrant": [Function],
+                  "updateGrantToEdit": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "oneMonth",
+                "nodeType": "function",
+                "props": Object {
+                  "date": 1523077200000,
+                  "id": "oneMonth",
+                  "name": "Ditmas",
+                  "notes": "",
+                  "purpose": "general operations",
+                  "reminders": Object {
+                    "oneMonth": true,
+                    "oneWeek": true,
+                    "twoMonths": false,
+                    "twoWeeks": false,
+                  },
+                  "updateGrantToEdit": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "twoMonths",
+                "nodeType": "function",
+                "props": Object {
+                  "date": 1525669200000,
+                  "id": "twoMonths",
+                  "name": "NEA",
+                  "notes": "",
+                  "purpose": "general operations",
+                  "reminders": Object {
+                    "oneMonth": false,
+                    "oneWeek": false,
+                    "twoMonths": true,
+                    "twoWeeks": false,
+                  },
+                  "updateGrantToEdit": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "jeesm1xk",
+                "nodeType": "function",
+                "props": Object {
+                  "date": 1552338664444,
+                  "id": "jeesm1xk",
+                  "name": "yep",
+                  "notes": "notes!!",
+                  "purpose": "Education",
+                  "reminders": Object {
+                    "oneMonth": false,
+                    "oneWeek": false,
+                    "twoMonths": true,
+                    "twoWeeks": false,
+                  },
+                  "updateGrantToEdit": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "jek5wems",
+                "nodeType": "function",
+                "props": Object {
+                  "date": 1662737764444,
+                  "id": "jek5wems",
+                  "name": "a great name",
+                  "notes": "these are incredible notes!",
+                  "purpose": "General Operations",
+                  "reminders": Object {
+                    "oneMonth": false,
+                    "oneWeek": false,
+                    "twoMonths": false,
+                    "twoWeeks": false,
+                  },
+                  "updateGrantToEdit": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "tbody",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "css": ".title{text-align:center;font-weight:300;text-decoration:underline;}a{text-decoration:underline;}a:hover{cursor:pointer;}th,td{padding:10px 8px;}th{text-decoration:underline;}.grant-name{font-weight:400;}@media (max-width:550px){.notes{display:none;width:0;height:0;opacity:0;visibility:collapse;}}",
+              "styleId": "688206784",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "table",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h4
+            className="title"
+          >
+            Grants
+          </h4>,
+          <table
+            className="jsx-688206784 u-full-width"
+          >
+            <thead
+              className="jsx-688206784"
+            >
+              <tr
+                className="jsx-688206784"
+              >
+                <th
+                  className="jsx-688206784"
+                >
+                  date
+                </th>
+                <th
+                  className="jsx-688206784"
+                >
+                  name
+                </th>
+                <th
+                  className="jsx-688206784"
+                >
+                  purpose
+                </th>
+                <th
+                  className="jsx-688206784 notes"
+                >
+                  notes
+                </th>
+                <th
+                  className="jsx-688206784"
+                />
+              </tr>
+            </thead>
+            <tbody
+              className="jsx-688206784"
+            >
+              <EditGrantForm
+                changesPending={false}
+                grant={
+                  Object {
+                    "date": 1523030464444,
+                    "id": "jeesc9a9",
+                    "name": "a grant due in june!",
+                    "notes": "so many notes",
+                    "purpose": "General Operations",
+                    "reminders": Object {
+                      "oneMonth": false,
+                      "oneWeek": true,
+                      "twoMonths": false,
+                      "twoWeeks": false,
+                    },
+                  }
+                }
+                purposes={
+                  Object {
+                    "one": "purpose1!",
+                    "three": "purpose3!",
+                    "two": "purpose2!",
+                  }
+                }
+                updateGrant={[Function]}
+                updateGrantToEdit={[Function]}
+              />
+              <GrantsTableRow
+                date={1523077200000}
+                id="oneMonth"
+                name="Ditmas"
+                notes=""
+                purpose="general operations"
+                reminders={
+                  Object {
+                    "oneMonth": true,
+                    "oneWeek": true,
+                    "twoMonths": false,
+                    "twoWeeks": false,
+                  }
+                }
+                updateGrantToEdit={[Function]}
+              />
+              <GrantsTableRow
+                date={1525669200000}
+                id="twoMonths"
+                name="NEA"
+                notes=""
+                purpose="general operations"
+                reminders={
+                  Object {
+                    "oneMonth": false,
+                    "oneWeek": false,
+                    "twoMonths": true,
+                    "twoWeeks": false,
+                  }
+                }
+                updateGrantToEdit={[Function]}
+              />
+              <GrantsTableRow
+                date={1552338664444}
+                id="jeesm1xk"
+                name="yep"
+                notes="notes!!"
+                purpose="Education"
+                reminders={
+                  Object {
+                    "oneMonth": false,
+                    "oneWeek": false,
+                    "twoMonths": true,
+                    "twoWeeks": false,
+                  }
+                }
+                updateGrantToEdit={[Function]}
+              />
+              <GrantsTableRow
+                date={1662737764444}
+                id="jek5wems"
+                name="a great name"
+                notes="these are incredible notes!"
+                purpose="General Operations"
+                reminders={
+                  Object {
+                    "oneMonth": false,
+                    "oneWeek": false,
+                    "twoMonths": false,
+                    "twoWeeks": false,
+                  }
+                }
+                updateGrantToEdit={[Function]}
+              />
+            </tbody>
+            <JSXStyle
+              css=".title{text-align:center;font-weight:300;text-decoration:underline;}a{text-decoration:underline;}a:hover{cursor:pointer;}th,td{padding:10px 8px;}th{text-decoration:underline;}.grant-name{font-weight:400;}@media (max-width:550px){.notes{display:none;width:0;height:0;opacity:0;visibility:collapse;}}"
+              styleId="688206784"
+            />
+          </table>,
+        ],
+        "className": "u-full-width grants-table",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Grants",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Grants",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <thead
+                className="jsx-688206784"
+              >
+                <tr
+                  className="jsx-688206784"
+                >
+                  <th
+                    className="jsx-688206784"
+                  >
+                    date
+                  </th>
+                  <th
+                    className="jsx-688206784"
+                  >
+                    name
+                  </th>
+                  <th
+                    className="jsx-688206784"
+                  >
+                    purpose
+                  </th>
+                  <th
+                    className="jsx-688206784 notes"
+                  >
+                    notes
+                  </th>
+                  <th
+                    className="jsx-688206784"
+                  />
+                </tr>
+              </thead>,
+              <tbody
+                className="jsx-688206784"
+              >
+                <EditGrantForm
+                  changesPending={false}
+                  grant={
+                    Object {
+                      "date": 1523030464444,
+                      "id": "jeesc9a9",
+                      "name": "a grant due in june!",
+                      "notes": "so many notes",
+                      "purpose": "General Operations",
+                      "reminders": Object {
+                        "oneMonth": false,
+                        "oneWeek": true,
+                        "twoMonths": false,
+                        "twoWeeks": false,
+                      },
+                    }
+                  }
+                  purposes={
+                    Object {
+                      "one": "purpose1!",
+                      "three": "purpose3!",
+                      "two": "purpose2!",
+                    }
+                  }
+                  updateGrant={[Function]}
+                  updateGrantToEdit={[Function]}
+                />
+                <GrantsTableRow
+                  date={1523077200000}
+                  id="oneMonth"
+                  name="Ditmas"
+                  notes=""
+                  purpose="general operations"
+                  reminders={
+                    Object {
+                      "oneMonth": true,
+                      "oneWeek": true,
+                      "twoMonths": false,
+                      "twoWeeks": false,
+                    }
+                  }
+                  updateGrantToEdit={[Function]}
+                />
+                <GrantsTableRow
+                  date={1525669200000}
+                  id="twoMonths"
+                  name="NEA"
+                  notes=""
+                  purpose="general operations"
+                  reminders={
+                    Object {
+                      "oneMonth": false,
+                      "oneWeek": false,
+                      "twoMonths": true,
+                      "twoWeeks": false,
+                    }
+                  }
+                  updateGrantToEdit={[Function]}
+                />
+                <GrantsTableRow
+                  date={1552338664444}
+                  id="jeesm1xk"
+                  name="yep"
+                  notes="notes!!"
+                  purpose="Education"
+                  reminders={
+                    Object {
+                      "oneMonth": false,
+                      "oneWeek": false,
+                      "twoMonths": true,
+                      "twoWeeks": false,
+                    }
+                  }
+                  updateGrantToEdit={[Function]}
+                />
+                <GrantsTableRow
+                  date={1662737764444}
+                  id="jek5wems"
+                  name="a great name"
+                  notes="these are incredible notes!"
+                  purpose="General Operations"
+                  reminders={
+                    Object {
+                      "oneMonth": false,
+                      "oneWeek": false,
+                      "twoMonths": false,
+                      "twoWeeks": false,
+                    }
+                  }
+                  updateGrantToEdit={[Function]}
+                />
+              </tbody>,
+              <JSXStyle
+                css=".title{text-align:center;font-weight:300;text-decoration:underline;}a{text-decoration:underline;}a:hover{cursor:pointer;}th,td{padding:10px 8px;}th{text-decoration:underline;}.grant-name{font-weight:400;}@media (max-width:550px){.notes{display:none;width:0;height:0;opacity:0;visibility:collapse;}}"
+                styleId="688206784"
+              />,
+            ],
+            "className": "jsx-688206784 u-full-width",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <tr
+                  className="jsx-688206784"
+                >
+                  <th
+                    className="jsx-688206784"
+                  >
+                    date
+                  </th>
+                  <th
+                    className="jsx-688206784"
+                  >
+                    name
+                  </th>
+                  <th
+                    className="jsx-688206784"
+                  >
+                    purpose
+                  </th>
+                  <th
+                    className="jsx-688206784 notes"
+                  >
+                    notes
+                  </th>
+                  <th
+                    className="jsx-688206784"
+                  />
+                </tr>,
+                "className": "jsx-688206784",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <th
+                      className="jsx-688206784"
+                    >
+                      date
+                    </th>,
+                    <th
+                      className="jsx-688206784"
+                    >
+                      name
+                    </th>,
+                    <th
+                      className="jsx-688206784"
+                    >
+                      purpose
+                    </th>,
+                    <th
+                      className="jsx-688206784 notes"
+                    >
+                      notes
+                    </th>,
+                    <th
+                      className="jsx-688206784"
+                    />,
+                  ],
+                  "className": "jsx-688206784",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "date",
+                      "className": "jsx-688206784",
+                    },
+                    "ref": null,
+                    "rendered": "date",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "name",
+                      "className": "jsx-688206784",
+                    },
+                    "ref": null,
+                    "rendered": "name",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "purpose",
+                      "className": "jsx-688206784",
+                    },
+                    "ref": null,
+                    "rendered": "purpose",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "notes",
+                      "className": "jsx-688206784 notes",
+                    },
+                    "ref": null,
+                    "rendered": "notes",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "jsx-688206784",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "th",
+                  },
+                ],
+                "type": "tr",
+              },
+              "type": "thead",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <EditGrantForm
+                    changesPending={false}
+                    grant={
+                      Object {
+                        "date": 1523030464444,
+                        "id": "jeesc9a9",
+                        "name": "a grant due in june!",
+                        "notes": "so many notes",
+                        "purpose": "General Operations",
+                        "reminders": Object {
+                          "oneMonth": false,
+                          "oneWeek": true,
+                          "twoMonths": false,
+                          "twoWeeks": false,
+                        },
+                      }
+                    }
+                    purposes={
+                      Object {
+                        "one": "purpose1!",
+                        "three": "purpose3!",
+                        "two": "purpose2!",
+                      }
+                    }
+                    updateGrant={[Function]}
+                    updateGrantToEdit={[Function]}
+                  />,
+                  <GrantsTableRow
+                    date={1523077200000}
+                    id="oneMonth"
+                    name="Ditmas"
+                    notes=""
+                    purpose="general operations"
+                    reminders={
+                      Object {
+                        "oneMonth": true,
+                        "oneWeek": true,
+                        "twoMonths": false,
+                        "twoWeeks": false,
+                      }
+                    }
+                    updateGrantToEdit={[Function]}
+                  />,
+                  <GrantsTableRow
+                    date={1525669200000}
+                    id="twoMonths"
+                    name="NEA"
+                    notes=""
+                    purpose="general operations"
+                    reminders={
+                      Object {
+                        "oneMonth": false,
+                        "oneWeek": false,
+                        "twoMonths": true,
+                        "twoWeeks": false,
+                      }
+                    }
+                    updateGrantToEdit={[Function]}
+                  />,
+                  <GrantsTableRow
+                    date={1552338664444}
+                    id="jeesm1xk"
+                    name="yep"
+                    notes="notes!!"
+                    purpose="Education"
+                    reminders={
+                      Object {
+                        "oneMonth": false,
+                        "oneWeek": false,
+                        "twoMonths": true,
+                        "twoWeeks": false,
+                      }
+                    }
+                    updateGrantToEdit={[Function]}
+                  />,
+                  <GrantsTableRow
+                    date={1662737764444}
+                    id="jek5wems"
+                    name="a great name"
+                    notes="these are incredible notes!"
+                    purpose="General Operations"
+                    reminders={
+                      Object {
+                        "oneMonth": false,
+                        "oneWeek": false,
+                        "twoMonths": false,
+                        "twoWeeks": false,
+                      }
+                    }
+                    updateGrantToEdit={[Function]}
+                  />,
+                ],
+                "className": "jsx-688206784",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "jeesc9a9",
+                  "nodeType": "class",
+                  "props": Object {
+                    "changesPending": false,
+                    "grant": Object {
+                      "date": 1523030464444,
+                      "id": "jeesc9a9",
+                      "name": "a grant due in june!",
+                      "notes": "so many notes",
+                      "purpose": "General Operations",
+                      "reminders": Object {
+                        "oneMonth": false,
+                        "oneWeek": true,
+                        "twoMonths": false,
+                        "twoWeeks": false,
+                      },
+                    },
+                    "purposes": Object {
+                      "one": "purpose1!",
+                      "three": "purpose3!",
+                      "two": "purpose2!",
+                    },
+                    "updateGrant": [Function],
+                    "updateGrantToEdit": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "oneMonth",
+                  "nodeType": "function",
+                  "props": Object {
+                    "date": 1523077200000,
+                    "id": "oneMonth",
+                    "name": "Ditmas",
+                    "notes": "",
+                    "purpose": "general operations",
+                    "reminders": Object {
+                      "oneMonth": true,
+                      "oneWeek": true,
+                      "twoMonths": false,
+                      "twoWeeks": false,
+                    },
+                    "updateGrantToEdit": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "twoMonths",
+                  "nodeType": "function",
+                  "props": Object {
+                    "date": 1525669200000,
+                    "id": "twoMonths",
+                    "name": "NEA",
+                    "notes": "",
+                    "purpose": "general operations",
+                    "reminders": Object {
+                      "oneMonth": false,
+                      "oneWeek": false,
+                      "twoMonths": true,
+                      "twoWeeks": false,
+                    },
+                    "updateGrantToEdit": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "jeesm1xk",
+                  "nodeType": "function",
+                  "props": Object {
+                    "date": 1552338664444,
+                    "id": "jeesm1xk",
+                    "name": "yep",
+                    "notes": "notes!!",
+                    "purpose": "Education",
+                    "reminders": Object {
+                      "oneMonth": false,
+                      "oneWeek": false,
+                      "twoMonths": true,
+                      "twoWeeks": false,
+                    },
+                    "updateGrantToEdit": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "jek5wems",
+                  "nodeType": "function",
+                  "props": Object {
+                    "date": 1662737764444,
+                    "id": "jek5wems",
+                    "name": "a great name",
+                    "notes": "these are incredible notes!",
+                    "purpose": "General Operations",
+                    "reminders": Object {
+                      "oneMonth": false,
+                      "oneWeek": false,
+                      "twoMonths": false,
+                      "twoWeeks": false,
+                    },
+                    "updateGrantToEdit": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "tbody",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "css": ".title{text-align:center;font-weight:300;text-decoration:underline;}a{text-decoration:underline;}a:hover{cursor:pointer;}th,td{padding:10px 8px;}th{text-decoration:underline;}.grant-name{font-weight:400;}@media (max-width:550px){.notes{display:none;width:0;height:0;opacity:0;visibility:collapse;}}",
+                "styleId": "688206784",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "table",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

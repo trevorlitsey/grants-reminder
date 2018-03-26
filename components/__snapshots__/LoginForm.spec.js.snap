@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoginForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h4
+          className="jsx-1375569508"
+        >
+          Let's Organize Some Grants
+        </h4>,
+        <button
+          className="jsx-1375569508 button"
+          onClick={[Function]}
+        >
+          Log In With Google
+        </button>,
+        <JSXStyle
+          css="div.jsx-1375569508{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:50px auto;padding:50px 0;border:2px solid HSLA(200,6%,93%,1);border-radius:8px;max-width:400px;}h2.jsx-1375569508{text-align:center;}button.jsx-1375569508{margin-top:20px;}"
+          styleId="1375569508"
+        />,
+      ],
+      "className": "jsx-1375569508",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Let's Organize Some Grants",
+          "className": "jsx-1375569508",
+        },
+        "ref": null,
+        "rendered": "Let's Organize Some Grants",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Log In With Google",
+          "className": "jsx-1375569508 button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Log In With Google",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "css": "div.jsx-1375569508{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:50px auto;padding:50px 0;border:2px solid HSLA(200,6%,93%,1);border-radius:8px;max-width:400px;}h2.jsx-1375569508{text-align:center;}button.jsx-1375569508{margin-top:20px;}",
+          "styleId": "1375569508",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h4
+            className="jsx-1375569508"
+          >
+            Let's Organize Some Grants
+          </h4>,
+          <button
+            className="jsx-1375569508 button"
+            onClick={[Function]}
+          >
+            Log In With Google
+          </button>,
+          <JSXStyle
+            css="div.jsx-1375569508{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:50px auto;padding:50px 0;border:2px solid HSLA(200,6%,93%,1);border-radius:8px;max-width:400px;}h2.jsx-1375569508{text-align:center;}button.jsx-1375569508{margin-top:20px;}"
+            styleId="1375569508"
+          />,
+        ],
+        "className": "jsx-1375569508",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Let's Organize Some Grants",
+            "className": "jsx-1375569508",
+          },
+          "ref": null,
+          "rendered": "Let's Organize Some Grants",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Log In With Google",
+            "className": "jsx-1375569508 button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Log In With Google",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "css": "div.jsx-1375569508{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:50px auto;padding:50px 0;border:2px solid HSLA(200,6%,93%,1);border-radius:8px;max-width:400px;}h2.jsx-1375569508{text-align:center;}button.jsx-1375569508{margin-top:20px;}",
+            "styleId": "1375569508",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

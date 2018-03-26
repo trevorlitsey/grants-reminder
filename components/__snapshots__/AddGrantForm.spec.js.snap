@@ -1,0 +1,764 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddGrantForm should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddGrantForm
+    addNewGrant={[Function]}
+    purposes={
+      Object {
+        "one": "General Operations",
+        "three": "Special Projects",
+        "two": "Education",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          className="jsx-878138145"
+          onSubmit={[Function]}
+        >
+          <h5
+            className="jsx-878138145"
+          >
+            Add New Grant: 
+          </h5>
+          <div
+            className="jsx-878138145 row"
+          >
+            <input
+              className="jsx-878138145 u-full-width four columns"
+              name="name"
+              onChange={[Function]}
+              placeholder="Name of grant"
+              required={true}
+              type="text"
+              value="a grant name"
+            />
+            <MonthOptions
+              handleChange={[Function]}
+              selected={2}
+            />
+            <DayOptions
+              date={"2018-03-23T05:00:00.000Z"}
+              handleChange={[Function]}
+              selected={23}
+            />
+            <YearOptions
+              handleChange={[Function]}
+              selected={2018}
+            />
+            <PurposeOptions
+              handleChange={[Function]}
+              purposes={
+                Object {
+                  "one": "General Operations",
+                  "three": "Special Projects",
+                  "two": "Education",
+                }
+              }
+              selected="general operations"
+            />
+          </div>
+          <textarea
+            className="jsx-878138145 u-full-width"
+            name="notes"
+            onChange={[Function]}
+            placeholder="Notes ..."
+            value=""
+          />
+          <ReminderOptions
+            handleChange={[Function]}
+            oneMonth={false}
+            oneWeek={false}
+            twoMonths={true}
+            twoWeeks={true}
+          />
+          <input
+            className="jsx-878138145 button-primary"
+            data-test="purpose"
+            type="submit"
+            value="Submit"
+          />
+          <FormAlert
+            message=""
+          />
+        </form>,
+        <JSXStyle
+          css=".row.jsx-878138145{margin:12px 0;}.options.jsx-878138145{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}.options.jsx-878138145 label.jsx-878138145{margin:0;}.button-primary.jsx-878138145{margin-top:8px;}"
+          styleId="878138145"
+        />,
+      ],
+      "className": "jsx-878138145",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h5
+              className="jsx-878138145"
+            >
+              Add New Grant: 
+            </h5>,
+            <div
+              className="jsx-878138145 row"
+            >
+              <input
+                className="jsx-878138145 u-full-width four columns"
+                name="name"
+                onChange={[Function]}
+                placeholder="Name of grant"
+                required={true}
+                type="text"
+                value="a grant name"
+              />
+              <MonthOptions
+                handleChange={[Function]}
+                selected={2}
+              />
+              <DayOptions
+                date={"2018-03-23T05:00:00.000Z"}
+                handleChange={[Function]}
+                selected={23}
+              />
+              <YearOptions
+                handleChange={[Function]}
+                selected={2018}
+              />
+              <PurposeOptions
+                handleChange={[Function]}
+                purposes={
+                  Object {
+                    "one": "General Operations",
+                    "three": "Special Projects",
+                    "two": "Education",
+                  }
+                }
+                selected="general operations"
+              />
+            </div>,
+            <textarea
+              className="jsx-878138145 u-full-width"
+              name="notes"
+              onChange={[Function]}
+              placeholder="Notes ..."
+              value=""
+            />,
+            <ReminderOptions
+              handleChange={[Function]}
+              oneMonth={false}
+              oneWeek={false}
+              twoMonths={true}
+              twoWeeks={true}
+            />,
+            <input
+              className="jsx-878138145 button-primary"
+              data-test="purpose"
+              type="submit"
+              value="Submit"
+            />,
+            <FormAlert
+              message=""
+            />,
+          ],
+          "className": "jsx-878138145",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Add New Grant: ",
+              "className": "jsx-878138145",
+            },
+            "ref": null,
+            "rendered": "Add New Grant: ",
+            "type": "h5",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  className="jsx-878138145 u-full-width four columns"
+                  name="name"
+                  onChange={[Function]}
+                  placeholder="Name of grant"
+                  required={true}
+                  type="text"
+                  value="a grant name"
+                />,
+                <MonthOptions
+                  handleChange={[Function]}
+                  selected={2}
+                />,
+                <DayOptions
+                  date={"2018-03-23T05:00:00.000Z"}
+                  handleChange={[Function]}
+                  selected={23}
+                />,
+                <YearOptions
+                  handleChange={[Function]}
+                  selected={2018}
+                />,
+                <PurposeOptions
+                  handleChange={[Function]}
+                  purposes={
+                    Object {
+                      "one": "General Operations",
+                      "three": "Special Projects",
+                      "two": "Education",
+                    }
+                  }
+                  selected="general operations"
+                />,
+              ],
+              "className": "jsx-878138145 row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "jsx-878138145 u-full-width four columns",
+                  "name": "name",
+                  "onChange": [Function],
+                  "placeholder": "Name of grant",
+                  "required": true,
+                  "type": "text",
+                  "value": "a grant name",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "handleChange": [Function],
+                  "selected": 2,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "date": "2018-03-23T05:00:00.000Z",
+                  "handleChange": [Function],
+                  "selected": 23,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "handleChange": [Function],
+                  "selected": 2018,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "handleChange": [Function],
+                  "purposes": Object {
+                    "one": "General Operations",
+                    "three": "Special Projects",
+                    "two": "Education",
+                  },
+                  "selected": "general operations",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "jsx-878138145 u-full-width",
+              "name": "notes",
+              "onChange": [Function],
+              "placeholder": "Notes ...",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "handleChange": [Function],
+              "oneMonth": false,
+              "oneWeek": false,
+              "twoMonths": true,
+              "twoWeeks": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "jsx-878138145 button-primary",
+              "data-test": "purpose",
+              "type": "submit",
+              "value": "Submit",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "message": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "css": ".row.jsx-878138145{margin:12px 0;}.options.jsx-878138145{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}.options.jsx-878138145 label.jsx-878138145{margin:0;}.button-primary.jsx-878138145{margin-top:8px;}",
+          "styleId": "878138145",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            className="jsx-878138145"
+            onSubmit={[Function]}
+          >
+            <h5
+              className="jsx-878138145"
+            >
+              Add New Grant: 
+            </h5>
+            <div
+              className="jsx-878138145 row"
+            >
+              <input
+                className="jsx-878138145 u-full-width four columns"
+                name="name"
+                onChange={[Function]}
+                placeholder="Name of grant"
+                required={true}
+                type="text"
+                value="a grant name"
+              />
+              <MonthOptions
+                handleChange={[Function]}
+                selected={2}
+              />
+              <DayOptions
+                date={"2018-03-23T05:00:00.000Z"}
+                handleChange={[Function]}
+                selected={23}
+              />
+              <YearOptions
+                handleChange={[Function]}
+                selected={2018}
+              />
+              <PurposeOptions
+                handleChange={[Function]}
+                purposes={
+                  Object {
+                    "one": "General Operations",
+                    "three": "Special Projects",
+                    "two": "Education",
+                  }
+                }
+                selected="general operations"
+              />
+            </div>
+            <textarea
+              className="jsx-878138145 u-full-width"
+              name="notes"
+              onChange={[Function]}
+              placeholder="Notes ..."
+              value=""
+            />
+            <ReminderOptions
+              handleChange={[Function]}
+              oneMonth={false}
+              oneWeek={false}
+              twoMonths={true}
+              twoWeeks={true}
+            />
+            <input
+              className="jsx-878138145 button-primary"
+              data-test="purpose"
+              type="submit"
+              value="Submit"
+            />
+            <FormAlert
+              message=""
+            />
+          </form>,
+          <JSXStyle
+            css=".row.jsx-878138145{margin:12px 0;}.options.jsx-878138145{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}.options.jsx-878138145 label.jsx-878138145{margin:0;}.button-primary.jsx-878138145{margin-top:8px;}"
+            styleId="878138145"
+          />,
+        ],
+        "className": "jsx-878138145",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h5
+                className="jsx-878138145"
+              >
+                Add New Grant: 
+              </h5>,
+              <div
+                className="jsx-878138145 row"
+              >
+                <input
+                  className="jsx-878138145 u-full-width four columns"
+                  name="name"
+                  onChange={[Function]}
+                  placeholder="Name of grant"
+                  required={true}
+                  type="text"
+                  value="a grant name"
+                />
+                <MonthOptions
+                  handleChange={[Function]}
+                  selected={2}
+                />
+                <DayOptions
+                  date={"2018-03-23T05:00:00.000Z"}
+                  handleChange={[Function]}
+                  selected={23}
+                />
+                <YearOptions
+                  handleChange={[Function]}
+                  selected={2018}
+                />
+                <PurposeOptions
+                  handleChange={[Function]}
+                  purposes={
+                    Object {
+                      "one": "General Operations",
+                      "three": "Special Projects",
+                      "two": "Education",
+                    }
+                  }
+                  selected="general operations"
+                />
+              </div>,
+              <textarea
+                className="jsx-878138145 u-full-width"
+                name="notes"
+                onChange={[Function]}
+                placeholder="Notes ..."
+                value=""
+              />,
+              <ReminderOptions
+                handleChange={[Function]}
+                oneMonth={false}
+                oneWeek={false}
+                twoMonths={true}
+                twoWeeks={true}
+              />,
+              <input
+                className="jsx-878138145 button-primary"
+                data-test="purpose"
+                type="submit"
+                value="Submit"
+              />,
+              <FormAlert
+                message=""
+              />,
+            ],
+            "className": "jsx-878138145",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add New Grant: ",
+                "className": "jsx-878138145",
+              },
+              "ref": null,
+              "rendered": "Add New Grant: ",
+              "type": "h5",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    className="jsx-878138145 u-full-width four columns"
+                    name="name"
+                    onChange={[Function]}
+                    placeholder="Name of grant"
+                    required={true}
+                    type="text"
+                    value="a grant name"
+                  />,
+                  <MonthOptions
+                    handleChange={[Function]}
+                    selected={2}
+                  />,
+                  <DayOptions
+                    date={"2018-03-23T05:00:00.000Z"}
+                    handleChange={[Function]}
+                    selected={23}
+                  />,
+                  <YearOptions
+                    handleChange={[Function]}
+                    selected={2018}
+                  />,
+                  <PurposeOptions
+                    handleChange={[Function]}
+                    purposes={
+                      Object {
+                        "one": "General Operations",
+                        "three": "Special Projects",
+                        "two": "Education",
+                      }
+                    }
+                    selected="general operations"
+                  />,
+                ],
+                "className": "jsx-878138145 row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "jsx-878138145 u-full-width four columns",
+                    "name": "name",
+                    "onChange": [Function],
+                    "placeholder": "Name of grant",
+                    "required": true,
+                    "type": "text",
+                    "value": "a grant name",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "handleChange": [Function],
+                    "selected": 2,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "date": "2018-03-23T05:00:00.000Z",
+                    "handleChange": [Function],
+                    "selected": 23,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "handleChange": [Function],
+                    "selected": 2018,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "handleChange": [Function],
+                    "purposes": Object {
+                      "one": "General Operations",
+                      "three": "Special Projects",
+                      "two": "Education",
+                    },
+                    "selected": "general operations",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "jsx-878138145 u-full-width",
+                "name": "notes",
+                "onChange": [Function],
+                "placeholder": "Notes ...",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "handleChange": [Function],
+                "oneMonth": false,
+                "oneWeek": false,
+                "twoMonths": true,
+                "twoWeeks": true,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "jsx-878138145 button-primary",
+                "data-test": "purpose",
+                "type": "submit",
+                "value": "Submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "message": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "css": ".row.jsx-878138145{margin:12px 0;}.options.jsx-878138145{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}.options.jsx-878138145 label.jsx-878138145{margin:0;}.button-primary.jsx-878138145{margin-top:8px;}",
+            "styleId": "878138145",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

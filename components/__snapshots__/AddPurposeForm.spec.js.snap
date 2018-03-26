@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddPurposeForm should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddPurposeForm
+    addNewPurpose={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          className="jsx-621825576"
+          onSubmit={[Function]}
+        >
+          <input
+            className="jsx-621825576"
+            data-test="new-purpose"
+            name="purpose"
+            onChange={[Function]}
+            placeholder="New purpose ..."
+            type="text"
+            value=""
+          />
+          <input
+            className="jsx-621825576 submit"
+            type="submit"
+            value="submit"
+          />
+        </form>,
+        <JSXStyle
+          css="form.jsx-621825576{margin-top:8px;margin-bottom:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}input.jsx-621825576{margin:0 2px;}.submit.jsx-621825576{padding:0 10px;}"
+          styleId="621825576"
+        />,
+      ],
+      "className": "jsx-621825576",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              className="jsx-621825576"
+              data-test="new-purpose"
+              name="purpose"
+              onChange={[Function]}
+              placeholder="New purpose ..."
+              type="text"
+              value=""
+            />,
+            <input
+              className="jsx-621825576 submit"
+              type="submit"
+              value="submit"
+            />,
+          ],
+          "className": "jsx-621825576",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "jsx-621825576",
+              "data-test": "new-purpose",
+              "name": "purpose",
+              "onChange": [Function],
+              "placeholder": "New purpose ...",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "jsx-621825576 submit",
+              "type": "submit",
+              "value": "submit",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "css": "form.jsx-621825576{margin-top:8px;margin-bottom:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}input.jsx-621825576{margin:0 2px;}.submit.jsx-621825576{padding:0 10px;}",
+          "styleId": "621825576",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            className="jsx-621825576"
+            onSubmit={[Function]}
+          >
+            <input
+              className="jsx-621825576"
+              data-test="new-purpose"
+              name="purpose"
+              onChange={[Function]}
+              placeholder="New purpose ..."
+              type="text"
+              value=""
+            />
+            <input
+              className="jsx-621825576 submit"
+              type="submit"
+              value="submit"
+            />
+          </form>,
+          <JSXStyle
+            css="form.jsx-621825576{margin-top:8px;margin-bottom:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}input.jsx-621825576{margin:0 2px;}.submit.jsx-621825576{padding:0 10px;}"
+            styleId="621825576"
+          />,
+        ],
+        "className": "jsx-621825576",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="jsx-621825576"
+                data-test="new-purpose"
+                name="purpose"
+                onChange={[Function]}
+                placeholder="New purpose ..."
+                type="text"
+                value=""
+              />,
+              <input
+                className="jsx-621825576 submit"
+                type="submit"
+                value="submit"
+              />,
+            ],
+            "className": "jsx-621825576",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "jsx-621825576",
+                "data-test": "new-purpose",
+                "name": "purpose",
+                "onChange": [Function],
+                "placeholder": "New purpose ...",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "jsx-621825576 submit",
+                "type": "submit",
+                "value": "submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "css": "form.jsx-621825576{margin-top:8px;margin-bottom:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}input.jsx-621825576{margin:0 2px;}.submit.jsx-621825576{padding:0 10px;}",
+            "styleId": "621825576",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

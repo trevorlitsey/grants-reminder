@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdateEmailForm should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UpdateEmailForm
+    email="test@test.com"
+    updateEmail={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          className="jsx-2624128934"
+          onSubmit={[Function]}
+        >
+          <input
+            className="jsx-2624128934"
+            name="newEmail"
+            onChange={[Function]}
+            placeholder="test@test.com ..."
+            type="text"
+            value=""
+          />
+          <input
+            className="jsx-2624128934 submit"
+            type="submit"
+            value="Update Email"
+          />
+        </form>,
+        <FormAlert
+          message=""
+        />,
+        <JSXStyle
+          css="form.jsx-2624128934{margin-top:20px;margin-bottom:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}input.jsx-2624128934{margin:0 2px;}.submit.jsx-2624128934{padding:0 10px;}"
+          styleId="2624128934"
+        />,
+      ],
+      "className": "jsx-2624128934",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              className="jsx-2624128934"
+              name="newEmail"
+              onChange={[Function]}
+              placeholder="test@test.com ..."
+              type="text"
+              value=""
+            />,
+            <input
+              className="jsx-2624128934 submit"
+              type="submit"
+              value="Update Email"
+            />,
+          ],
+          "className": "jsx-2624128934",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "jsx-2624128934",
+              "name": "newEmail",
+              "onChange": [Function],
+              "placeholder": "test@test.com ...",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "jsx-2624128934 submit",
+              "type": "submit",
+              "value": "Update Email",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "message": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "css": "form.jsx-2624128934{margin-top:20px;margin-bottom:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}input.jsx-2624128934{margin:0 2px;}.submit.jsx-2624128934{padding:0 10px;}",
+          "styleId": "2624128934",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            className="jsx-2624128934"
+            onSubmit={[Function]}
+          >
+            <input
+              className="jsx-2624128934"
+              name="newEmail"
+              onChange={[Function]}
+              placeholder="test@test.com ..."
+              type="text"
+              value=""
+            />
+            <input
+              className="jsx-2624128934 submit"
+              type="submit"
+              value="Update Email"
+            />
+          </form>,
+          <FormAlert
+            message=""
+          />,
+          <JSXStyle
+            css="form.jsx-2624128934{margin-top:20px;margin-bottom:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}input.jsx-2624128934{margin:0 2px;}.submit.jsx-2624128934{padding:0 10px;}"
+            styleId="2624128934"
+          />,
+        ],
+        "className": "jsx-2624128934",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="jsx-2624128934"
+                name="newEmail"
+                onChange={[Function]}
+                placeholder="test@test.com ..."
+                type="text"
+                value=""
+              />,
+              <input
+                className="jsx-2624128934 submit"
+                type="submit"
+                value="Update Email"
+              />,
+            ],
+            "className": "jsx-2624128934",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "jsx-2624128934",
+                "name": "newEmail",
+                "onChange": [Function],
+                "placeholder": "test@test.com ...",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "jsx-2624128934 submit",
+                "type": "submit",
+                "value": "Update Email",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "message": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "css": "form.jsx-2624128934{margin-top:20px;margin-bottom:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}input.jsx-2624128934{margin:0 2px;}.submit.jsx-2624128934{padding:0 10px;}",
+            "styleId": "2624128934",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

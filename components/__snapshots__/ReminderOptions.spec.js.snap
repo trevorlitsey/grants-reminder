@@ -1,0 +1,877 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReminderOptions should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ReminderOptions
+    handleChange={[Function]}
+    oneMonth={false}
+    oneWeek={false}
+    twoMonths={true}
+    twoWeeks={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <label
+          className="jsx-838366666"
+          htmlFor="Reminders"
+        >
+          Set reminders for...
+        </label>,
+        <div
+          className="jsx-838366666 options"
+        >
+          <label
+            className="jsx-838366666"
+          >
+            <input
+              checked={true}
+              className="jsx-838366666"
+              name="reminders"
+              onChange={[Function]}
+              type="checkbox"
+              value="twoMonths"
+            />
+            <span
+              className="jsx-838366666 label-body"
+            >
+              Two Months
+            </span>
+          </label>
+          <label
+            className="jsx-838366666"
+          >
+            <input
+              checked={false}
+              className="jsx-838366666"
+              name="reminders"
+              onChange={[Function]}
+              type="checkbox"
+              value="oneMonth"
+            />
+            <span
+              className="jsx-838366666 label-body"
+            >
+              One Month
+            </span>
+          </label>
+          <label
+            className="jsx-838366666"
+          >
+            <input
+              checked={true}
+              className="jsx-838366666"
+              name="reminders"
+              onChange={[Function]}
+              type="checkbox"
+              value="twoWeeks"
+            />
+            <span
+              className="jsx-838366666 label-body"
+            >
+              Two Weeks
+            </span>
+          </label>
+          <label
+            className="jsx-838366666"
+          >
+            <input
+              checked={false}
+              className="jsx-838366666"
+              name="reminders"
+              onChange={[Function]}
+              type="checkbox"
+              value="oneWeek"
+            />
+            <span
+              className="jsx-838366666 label-body"
+            >
+              One Week
+            </span>
+          </label>
+        </div>,
+        <JSXStyle
+          css=".options.jsx-838366666{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}.options.jsx-838366666 label.jsx-838366666{margin:0;}"
+          styleId="838366666"
+        />,
+      ],
+      "className": "jsx-838366666",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Set reminders for...",
+          "className": "jsx-838366666",
+          "htmlFor": "Reminders",
+        },
+        "ref": null,
+        "rendered": "Set reminders for...",
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label
+              className="jsx-838366666"
+            >
+              <input
+                checked={true}
+                className="jsx-838366666"
+                name="reminders"
+                onChange={[Function]}
+                type="checkbox"
+                value="twoMonths"
+              />
+              <span
+                className="jsx-838366666 label-body"
+              >
+                Two Months
+              </span>
+            </label>,
+            <label
+              className="jsx-838366666"
+            >
+              <input
+                checked={false}
+                className="jsx-838366666"
+                name="reminders"
+                onChange={[Function]}
+                type="checkbox"
+                value="oneMonth"
+              />
+              <span
+                className="jsx-838366666 label-body"
+              >
+                One Month
+              </span>
+            </label>,
+            <label
+              className="jsx-838366666"
+            >
+              <input
+                checked={true}
+                className="jsx-838366666"
+                name="reminders"
+                onChange={[Function]}
+                type="checkbox"
+                value="twoWeeks"
+              />
+              <span
+                className="jsx-838366666 label-body"
+              >
+                Two Weeks
+              </span>
+            </label>,
+            <label
+              className="jsx-838366666"
+            >
+              <input
+                checked={false}
+                className="jsx-838366666"
+                name="reminders"
+                onChange={[Function]}
+                type="checkbox"
+                value="oneWeek"
+              />
+              <span
+                className="jsx-838366666 label-body"
+              >
+                One Week
+              </span>
+            </label>,
+          ],
+          "className": "jsx-838366666 options",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  checked={true}
+                  className="jsx-838366666"
+                  name="reminders"
+                  onChange={[Function]}
+                  type="checkbox"
+                  value="twoMonths"
+                />,
+                <span
+                  className="jsx-838366666 label-body"
+                >
+                  Two Months
+                </span>,
+              ],
+              "className": "jsx-838366666",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": true,
+                  "className": "jsx-838366666",
+                  "name": "reminders",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                  "value": "twoMonths",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Two Months",
+                  "className": "jsx-838366666 label-body",
+                },
+                "ref": null,
+                "rendered": "Two Months",
+                "type": "span",
+              },
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  checked={false}
+                  className="jsx-838366666"
+                  name="reminders"
+                  onChange={[Function]}
+                  type="checkbox"
+                  value="oneMonth"
+                />,
+                <span
+                  className="jsx-838366666 label-body"
+                >
+                  One Month
+                </span>,
+              ],
+              "className": "jsx-838366666",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": false,
+                  "className": "jsx-838366666",
+                  "name": "reminders",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                  "value": "oneMonth",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "One Month",
+                  "className": "jsx-838366666 label-body",
+                },
+                "ref": null,
+                "rendered": "One Month",
+                "type": "span",
+              },
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  checked={true}
+                  className="jsx-838366666"
+                  name="reminders"
+                  onChange={[Function]}
+                  type="checkbox"
+                  value="twoWeeks"
+                />,
+                <span
+                  className="jsx-838366666 label-body"
+                >
+                  Two Weeks
+                </span>,
+              ],
+              "className": "jsx-838366666",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": true,
+                  "className": "jsx-838366666",
+                  "name": "reminders",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                  "value": "twoWeeks",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Two Weeks",
+                  "className": "jsx-838366666 label-body",
+                },
+                "ref": null,
+                "rendered": "Two Weeks",
+                "type": "span",
+              },
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  checked={false}
+                  className="jsx-838366666"
+                  name="reminders"
+                  onChange={[Function]}
+                  type="checkbox"
+                  value="oneWeek"
+                />,
+                <span
+                  className="jsx-838366666 label-body"
+                >
+                  One Week
+                </span>,
+              ],
+              "className": "jsx-838366666",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": false,
+                  "className": "jsx-838366666",
+                  "name": "reminders",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                  "value": "oneWeek",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "One Week",
+                  "className": "jsx-838366666 label-body",
+                },
+                "ref": null,
+                "rendered": "One Week",
+                "type": "span",
+              },
+            ],
+            "type": "label",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "css": ".options.jsx-838366666{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}.options.jsx-838366666 label.jsx-838366666{margin:0;}",
+          "styleId": "838366666",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label
+            className="jsx-838366666"
+            htmlFor="Reminders"
+          >
+            Set reminders for...
+          </label>,
+          <div
+            className="jsx-838366666 options"
+          >
+            <label
+              className="jsx-838366666"
+            >
+              <input
+                checked={true}
+                className="jsx-838366666"
+                name="reminders"
+                onChange={[Function]}
+                type="checkbox"
+                value="twoMonths"
+              />
+              <span
+                className="jsx-838366666 label-body"
+              >
+                Two Months
+              </span>
+            </label>
+            <label
+              className="jsx-838366666"
+            >
+              <input
+                checked={false}
+                className="jsx-838366666"
+                name="reminders"
+                onChange={[Function]}
+                type="checkbox"
+                value="oneMonth"
+              />
+              <span
+                className="jsx-838366666 label-body"
+              >
+                One Month
+              </span>
+            </label>
+            <label
+              className="jsx-838366666"
+            >
+              <input
+                checked={true}
+                className="jsx-838366666"
+                name="reminders"
+                onChange={[Function]}
+                type="checkbox"
+                value="twoWeeks"
+              />
+              <span
+                className="jsx-838366666 label-body"
+              >
+                Two Weeks
+              </span>
+            </label>
+            <label
+              className="jsx-838366666"
+            >
+              <input
+                checked={false}
+                className="jsx-838366666"
+                name="reminders"
+                onChange={[Function]}
+                type="checkbox"
+                value="oneWeek"
+              />
+              <span
+                className="jsx-838366666 label-body"
+              >
+                One Week
+              </span>
+            </label>
+          </div>,
+          <JSXStyle
+            css=".options.jsx-838366666{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}.options.jsx-838366666 label.jsx-838366666{margin:0;}"
+            styleId="838366666"
+          />,
+        ],
+        "className": "jsx-838366666",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Set reminders for...",
+            "className": "jsx-838366666",
+            "htmlFor": "Reminders",
+          },
+          "ref": null,
+          "rendered": "Set reminders for...",
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                className="jsx-838366666"
+              >
+                <input
+                  checked={true}
+                  className="jsx-838366666"
+                  name="reminders"
+                  onChange={[Function]}
+                  type="checkbox"
+                  value="twoMonths"
+                />
+                <span
+                  className="jsx-838366666 label-body"
+                >
+                  Two Months
+                </span>
+              </label>,
+              <label
+                className="jsx-838366666"
+              >
+                <input
+                  checked={false}
+                  className="jsx-838366666"
+                  name="reminders"
+                  onChange={[Function]}
+                  type="checkbox"
+                  value="oneMonth"
+                />
+                <span
+                  className="jsx-838366666 label-body"
+                >
+                  One Month
+                </span>
+              </label>,
+              <label
+                className="jsx-838366666"
+              >
+                <input
+                  checked={true}
+                  className="jsx-838366666"
+                  name="reminders"
+                  onChange={[Function]}
+                  type="checkbox"
+                  value="twoWeeks"
+                />
+                <span
+                  className="jsx-838366666 label-body"
+                >
+                  Two Weeks
+                </span>
+              </label>,
+              <label
+                className="jsx-838366666"
+              >
+                <input
+                  checked={false}
+                  className="jsx-838366666"
+                  name="reminders"
+                  onChange={[Function]}
+                  type="checkbox"
+                  value="oneWeek"
+                />
+                <span
+                  className="jsx-838366666 label-body"
+                >
+                  One Week
+                </span>
+              </label>,
+            ],
+            "className": "jsx-838366666 options",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    checked={true}
+                    className="jsx-838366666"
+                    name="reminders"
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="twoMonths"
+                  />,
+                  <span
+                    className="jsx-838366666 label-body"
+                  >
+                    Two Months
+                  </span>,
+                ],
+                "className": "jsx-838366666",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "checked": true,
+                    "className": "jsx-838366666",
+                    "name": "reminders",
+                    "onChange": [Function],
+                    "type": "checkbox",
+                    "value": "twoMonths",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Two Months",
+                    "className": "jsx-838366666 label-body",
+                  },
+                  "ref": null,
+                  "rendered": "Two Months",
+                  "type": "span",
+                },
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    checked={false}
+                    className="jsx-838366666"
+                    name="reminders"
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="oneMonth"
+                  />,
+                  <span
+                    className="jsx-838366666 label-body"
+                  >
+                    One Month
+                  </span>,
+                ],
+                "className": "jsx-838366666",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "checked": false,
+                    "className": "jsx-838366666",
+                    "name": "reminders",
+                    "onChange": [Function],
+                    "type": "checkbox",
+                    "value": "oneMonth",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "One Month",
+                    "className": "jsx-838366666 label-body",
+                  },
+                  "ref": null,
+                  "rendered": "One Month",
+                  "type": "span",
+                },
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    checked={true}
+                    className="jsx-838366666"
+                    name="reminders"
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="twoWeeks"
+                  />,
+                  <span
+                    className="jsx-838366666 label-body"
+                  >
+                    Two Weeks
+                  </span>,
+                ],
+                "className": "jsx-838366666",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "checked": true,
+                    "className": "jsx-838366666",
+                    "name": "reminders",
+                    "onChange": [Function],
+                    "type": "checkbox",
+                    "value": "twoWeeks",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Two Weeks",
+                    "className": "jsx-838366666 label-body",
+                  },
+                  "ref": null,
+                  "rendered": "Two Weeks",
+                  "type": "span",
+                },
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    checked={false}
+                    className="jsx-838366666"
+                    name="reminders"
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="oneWeek"
+                  />,
+                  <span
+                    className="jsx-838366666 label-body"
+                  >
+                    One Week
+                  </span>,
+                ],
+                "className": "jsx-838366666",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "checked": false,
+                    "className": "jsx-838366666",
+                    "name": "reminders",
+                    "onChange": [Function],
+                    "type": "checkbox",
+                    "value": "oneWeek",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "One Week",
+                    "className": "jsx-838366666 label-body",
+                  },
+                  "ref": null,
+                  "rendered": "One Week",
+                  "type": "span",
+                },
+              ],
+              "type": "label",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "css": ".options.jsx-838366666{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}.options.jsx-838366666 label.jsx-838366666{margin:0;}",
+            "styleId": "838366666",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
