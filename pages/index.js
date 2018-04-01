@@ -73,7 +73,7 @@ class Index extends React.PureComponent {
 			}
 
 			if (!email) {
-				this.setState({ email: user.email });
+				db.ref(`/${user.uid}/email`).set(user.email);
 			}
 
 		});
