@@ -18,8 +18,9 @@ const Layout = (props) => (
 		{SkeletonCSS}
 		<style jsx global>{`
 			body {
-				border-top: 8px solid HSLA(206, 100%, 50%, .8);
+				
 			}
+
 			.wrapper {
 				padding: 20px;
 				max-width: 1000px;

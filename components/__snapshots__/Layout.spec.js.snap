@@ -27,16 +27,16 @@ ShallowWrapper {
       "children": Array [
         <SideEffect(Head)>
           <meta
-            className="jsx-2404889507"
+            className="jsx-3150111269"
             content="width=device-width, initial-scale=1"
             name="viewport"
           />
           <meta
             charSet="utf-8"
-            className="jsx-2404889507"
+            className="jsx-3150111269"
           />
           <title
-            className="jsx-2404889507"
+            className="jsx-3150111269"
           >
             grantsreminder.com
           </title>
@@ -58,14 +58,14 @@ ShallowWrapper {
           styleId="330596231"
         />,
         <JSXStyle
-          css="body{border-top:8px solid HSLA(206,100%,50%,.8);}.wrapper{padding:20px;max-width:1000px;margin:15px auto;}"
-          styleId="2404889507"
+          css=".wrapper{padding:20px;max-width:1000px;margin:15px auto;}"
+          styleId="3150111269"
         />,
         <div
-          className="jsx-2404889507 wrapper"
+          className="jsx-3150111269 wrapper"
         />,
       ],
-      "className": "jsx-2404889507",
+      "className": "jsx-3150111269",
     },
     "ref": null,
     "rendered": Array [
@@ -76,16 +76,16 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <meta
-              className="jsx-2404889507"
+              className="jsx-3150111269"
               content="width=device-width, initial-scale=1"
               name="viewport"
             />,
             <meta
               charSet="utf-8"
-              className="jsx-2404889507"
+              className="jsx-3150111269"
             />,
             <title
-              className="jsx-2404889507"
+              className="jsx-3150111269"
             >
               grantsreminder.com
             </title>,
@@ -98,7 +98,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "jsx-2404889507",
+              "className": "jsx-3150111269",
               "content": "width=device-width, initial-scale=1",
               "name": "viewport",
             },
@@ -112,7 +112,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "charSet": "utf-8",
-              "className": "jsx-2404889507",
+              "className": "jsx-3150111269",
             },
             "ref": null,
             "rendered": null,
@@ -124,7 +124,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "grantsreminder.com",
-              "className": "jsx-2404889507",
+              "className": "jsx-3150111269",
             },
             "ref": null,
             "rendered": "grantsreminder.com",
@@ -176,8 +176,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "css": "body{border-top:8px solid HSLA(206,100%,50%,.8);}.wrapper{padding:20px;max-width:1000px;margin:15px auto;}",
-          "styleId": "2404889507",
+          "css": ".wrapper{padding:20px;max-width:1000px;margin:15px auto;}",
+          "styleId": "3150111269",
         },
         "ref": null,
         "rendered": null,
@@ -189,7 +189,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": undefined,
-          "className": "jsx-2404889507 wrapper",
+          "className": "jsx-3150111269 wrapper",
         },
         "ref": null,
         "rendered": null,
@@ -207,16 +207,16 @@ ShallowWrapper {
         "children": Array [
           <SideEffect(Head)>
             <meta
-              className="jsx-2404889507"
+              className="jsx-3150111269"
               content="width=device-width, initial-scale=1"
               name="viewport"
             />
             <meta
               charSet="utf-8"
-              className="jsx-2404889507"
+              className="jsx-3150111269"
             />
             <title
-              className="jsx-2404889507"
+              className="jsx-3150111269"
             >
               grantsreminder.com
             </title>
@@ -238,14 +238,14 @@ ShallowWrapper {
             styleId="330596231"
           />,
           <JSXStyle
-            css="body{border-top:8px solid HSLA(206,100%,50%,.8);}.wrapper{padding:20px;max-width:1000px;margin:15px auto;}"
-            styleId="2404889507"
+            css=".wrapper{padding:20px;max-width:1000px;margin:15px auto;}"
+            styleId="3150111269"
           />,
           <div
-            className="jsx-2404889507 wrapper"
+            className="jsx-3150111269 wrapper"
           />,
         ],
-        "className": "jsx-2404889507",
+        "className": "jsx-3150111269",
       },
       "ref": null,
       "rendered": Array [
@@ -256,16 +256,16 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <meta
-                className="jsx-2404889507"
+                className="jsx-3150111269"
                 content="width=device-width, initial-scale=1"
                 name="viewport"
               />,
               <meta
                 charSet="utf-8"
-                className="jsx-2404889507"
+                className="jsx-3150111269"
               />,
               <title
-                className="jsx-2404889507"
+                className="jsx-3150111269"
               >
                 grantsreminder.com
               </title>,
@@ -278,7 +278,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "className": "jsx-2404889507",
+                "className": "jsx-3150111269",
                 "content": "width=device-width, initial-scale=1",
                 "name": "viewport",
               },
@@ -292,7 +292,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "charSet": "utf-8",
-                "className": "jsx-2404889507",
+                "className": "jsx-3150111269",
               },
               "ref": null,
               "rendered": null,
@@ -304,7 +304,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "grantsreminder.com",
-                "className": "jsx-2404889507",
+                "className": "jsx-3150111269",
               },
               "ref": null,
               "rendered": "grantsreminder.com",
@@ -356,8 +356,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "css": "body{border-top:8px solid HSLA(206,100%,50%,.8);}.wrapper{padding:20px;max-width:1000px;margin:15px auto;}",
-            "styleId": "2404889507",
+            "css": ".wrapper{padding:20px;max-width:1000px;margin:15px auto;}",
+            "styleId": "3150111269",
           },
           "ref": null,
           "rendered": null,
@@ -369,7 +369,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": undefined,
-            "className": "jsx-2404889507 wrapper",
+            "className": "jsx-3150111269 wrapper",
           },
           "ref": null,
           "rendered": null,

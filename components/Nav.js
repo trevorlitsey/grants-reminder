@@ -18,16 +18,18 @@ const Nav = (props) => {
 			</ul>
 			<style jsx>{`
 			ul {
+				border-top: 8px solid HSLA(206, 100%, 50%, .8);
+				max-width: 1000px;
 				display: flex;
 				justify-content: space-between;
-				margin: 0;
+				margin: 0 auto;
 				padding: 0 10px;
 				background: HSLA(200, 6%, 93%, 1.00);
 				color: black;
 				font-weight: bold;
-				text-transform: uppercase;
+				// text-transform: uppercase;
 			}
-
+			
       li {
 				line-height: 4rem;
         list-style: none;
