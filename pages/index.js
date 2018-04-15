@@ -23,12 +23,14 @@ class Index extends React.PureComponent {
 		this.updateEmail = this.updateEmail.bind(this);
 
 		this.state = {
-			grants: {},
-			purposes: {},
+			db: {
+				grants: {},
+				purposes: {},
+				email: '',
+			},
 			grantToEdit: '',
 			changesPending: false,
 			user: {},
-			email: '',
 		}
 	}
 
@@ -37,25 +39,11 @@ class Index extends React.PureComponent {
 			this.setState({ user });
 			if (!user) return;
 
-			// sync grants
-			this.grantsRef = base.syncState(`/${user.uid}/grants/`
+			// sync db
+			this.grantsRef = base.syncState(`/${user.uid}/`
 				, {
 					context: this,
-					state: 'grants'
-				});
-
-			// sync purposes
-			this.purposesRef = base.syncState(`/${user.uid}/purposes/`
-				, {
-					context: this,
-					state: 'purposes'
-				});
-
-			// sync email
-			this.emailRef = base.syncState(`/${user.uid}/email/`
-				, {
-					context: this,
-					state: 'email'
+					state: 'db'
 				});
 
 			const profileSnap = await db.ref(`/${user.uid}`).once('value');
@@ -85,47 +73,44 @@ class Index extends React.PureComponent {
 		base.removeBinding(this.emailRef);
 	}
 
-	addNewGrant = (grant) => {
-		const id = uniqid();
-		grant.id = id;
-		this.setState({
-			grants: {
-				...this.state.grants,
-				[id]: grant,
-			}
-		})
+	addNewGrant = (grant, id = uniqid()) => {				
+		const db = { ...this.state.db };
+		db.grants[id] = {
+			...grant,
+			id,
+		}
+		this.setState({ db });
 	}
 
 	updateGrantToEdit = (key) =>
 		this.setState({ grantToEdit: key });
 
 	updateGrant = (id, grant) => {
-		const grants = { ...this.state.grants };
-		grants[id] = grant;
-		this.setState({ grants })
+		const db = { ...this.state.db };
+		db.grants[id] = grant;
+		this.setState({ db })
 	}
 
-	addNewPurpose = (newPurpose) => {
-		const id = uniqid();
-		const { purposes } = this.state;
-		purposes[id] = newPurpose;
-		this.setState({ purposes });
+	addNewPurpose = (newPurpose, id = uniqid()) => {
+		const db = {...this.state.db};
+		db.purposes[id] = newPurpose;
+		this.setState({ db });
 	}
 
 	deletePurpose = (key) => {
-		const purposes = { ...this.state.purposes };
-		purposes[key] = null
-		this.setState({ purposes })
+		const db = { ...this.state.db };
+		db.purposes[key] = null
+		this.setState({ db })
 	}
 
 	updateEmail = (newEmail) => {
-		this.setState({
-			email: newEmail,
-		});
+		const db = { ...this.state.db }
+		db.email = newEmail;
+		this.setState({ db });
 	}
 
 	render() {
-
+		
 		if (!this.state.user) {
 			return (
 				<Layout>
@@ -134,26 +119,29 @@ class Index extends React.PureComponent {
 			)
 		}
 
+		const { db, user, grantToEdit, changesPending } = this.state;
+		const { grants, purposes, email } = db;
+
 		return (
-			<Layout user={this.state.user}>
+			<Layout user={user}>
 				<GrantsTable
-					grants={this.state.grants}
-					grantToEdit={this.state.grantToEdit}
+					grants={grants}
+					grantToEdit={grantToEdit}
 					updateGrantToEdit={this.updateGrantToEdit}
 					updateGrant={this.updateGrant}
-					changesPending={this.state.changesPending}
-					purposes={this.state.purposes}
+					changesPending={changesPending}
+					purposes={purposes}
 				/>
 				<AddGrantForm
-					purposes={this.state.purposes}
+					purposes={purposes}
 					addNewGrant={this.addNewGrant}
 				/>
 				<Purposes
-					purposes={this.state.purposes}
+					purposes={purposes}
 					addNewPurpose={this.addNewPurpose}
 					deletePurpose={this.deletePurpose}
 				/>
-				<UpdateEmailForm email={this.state.email} updateEmail={this.updateEmail} />
+				<UpdateEmailForm email={email} updateEmail={this.updateEmail} />
 			</Layout>
 		)
 	}

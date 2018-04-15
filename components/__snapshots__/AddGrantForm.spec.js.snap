@@ -5,7 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <AddGrantForm
-    addNewGrant={[Function]}
+    addNewGrant={[MockFunction]}
     purposes={
       Object {
         "one": "General Operations",
@@ -28,19 +28,19 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <form
-          className="jsx-878138145"
+          className="jsx-2962072046"
           onSubmit={[Function]}
         >
           <h5
-            className="jsx-878138145"
+            className="jsx-2962072046"
           >
             Add New Grant: 
           </h5>
           <div
-            className="jsx-878138145 row"
+            className="jsx-2962072046 row"
           >
             <input
-              className="jsx-878138145 u-full-width four columns"
+              className="jsx-2962072046 u-full-width four columns"
               name="name"
               onChange={[Function]}
               placeholder="Name of grant"
@@ -74,7 +74,7 @@ ShallowWrapper {
             />
           </div>
           <textarea
-            className="jsx-878138145 u-full-width"
+            className="jsx-2962072046 u-full-width"
             name="notes"
             onChange={[Function]}
             placeholder="Notes ..."
@@ -88,7 +88,7 @@ ShallowWrapper {
             twoWeeks={true}
           />
           <input
-            className="jsx-878138145 button-primary"
+            className="jsx-2962072046 button-primary"
             data-test="purpose"
             type="submit"
             value="Submit"
@@ -98,11 +98,11 @@ ShallowWrapper {
           />
         </form>,
         <JSXStyle
-          css=".row.jsx-878138145{margin:12px 0;}.options.jsx-878138145{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}.options.jsx-878138145 label.jsx-878138145{margin:0;}.button-primary.jsx-878138145{margin-top:8px;}"
-          styleId="878138145"
+          css=".row.jsx-2962072046{margin:12px 0;}.options.jsx-2962072046{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}textarea.jsx-2962072046{resize:vertical;}.options.jsx-2962072046 label.jsx-2962072046{margin:0;}.button-primary.jsx-2962072046{margin-top:8px;}"
+          styleId="2962072046"
         />,
       ],
-      "className": "jsx-878138145",
+      "className": "jsx-2962072046",
     },
     "ref": null,
     "rendered": Array [
@@ -113,15 +113,15 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <h5
-              className="jsx-878138145"
+              className="jsx-2962072046"
             >
               Add New Grant: 
             </h5>,
             <div
-              className="jsx-878138145 row"
+              className="jsx-2962072046 row"
             >
               <input
-                className="jsx-878138145 u-full-width four columns"
+                className="jsx-2962072046 u-full-width four columns"
                 name="name"
                 onChange={[Function]}
                 placeholder="Name of grant"
@@ -155,7 +155,7 @@ ShallowWrapper {
               />
             </div>,
             <textarea
-              className="jsx-878138145 u-full-width"
+              className="jsx-2962072046 u-full-width"
               name="notes"
               onChange={[Function]}
               placeholder="Notes ..."
@@ -169,7 +169,7 @@ ShallowWrapper {
               twoWeeks={true}
             />,
             <input
-              className="jsx-878138145 button-primary"
+              className="jsx-2962072046 button-primary"
               data-test="purpose"
               type="submit"
               value="Submit"
@@ -178,7 +178,7 @@ ShallowWrapper {
               message=""
             />,
           ],
-          "className": "jsx-878138145",
+          "className": "jsx-2962072046",
           "onSubmit": [Function],
         },
         "ref": null,
@@ -189,7 +189,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Add New Grant: ",
-              "className": "jsx-878138145",
+              "className": "jsx-2962072046",
             },
             "ref": null,
             "rendered": "Add New Grant: ",
@@ -202,7 +202,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <input
-                  className="jsx-878138145 u-full-width four columns"
+                  className="jsx-2962072046 u-full-width four columns"
                   name="name"
                   onChange={[Function]}
                   placeholder="Name of grant"
@@ -235,7 +235,7 @@ ShallowWrapper {
                   selected="general operations"
                 />,
               ],
-              "className": "jsx-878138145 row",
+              "className": "jsx-2962072046 row",
             },
             "ref": null,
             "rendered": Array [
@@ -244,7 +244,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "jsx-878138145 u-full-width four columns",
+                  "className": "jsx-2962072046 u-full-width four columns",
                   "name": "name",
                   "onChange": [Function],
                   "placeholder": "Name of grant",
@@ -318,7 +318,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "jsx-878138145 u-full-width",
+              "className": "jsx-2962072046 u-full-width",
               "name": "notes",
               "onChange": [Function],
               "placeholder": "Notes ...",
@@ -348,7 +348,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "jsx-878138145 button-primary",
+              "className": "jsx-2962072046 button-primary",
               "data-test": "purpose",
               "type": "submit",
               "value": "Submit",
@@ -376,8 +376,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "css": ".row.jsx-878138145{margin:12px 0;}.options.jsx-878138145{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}.options.jsx-878138145 label.jsx-878138145{margin:0;}.button-primary.jsx-878138145{margin-top:8px;}",
-          "styleId": "878138145",
+          "css": ".row.jsx-2962072046{margin:12px 0;}.options.jsx-2962072046{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}textarea.jsx-2962072046{resize:vertical;}.options.jsx-2962072046 label.jsx-2962072046{margin:0;}.button-primary.jsx-2962072046{margin-top:8px;}",
+          "styleId": "2962072046",
         },
         "ref": null,
         "rendered": null,
@@ -394,19 +394,19 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <form
-            className="jsx-878138145"
+            className="jsx-2962072046"
             onSubmit={[Function]}
           >
             <h5
-              className="jsx-878138145"
+              className="jsx-2962072046"
             >
               Add New Grant: 
             </h5>
             <div
-              className="jsx-878138145 row"
+              className="jsx-2962072046 row"
             >
               <input
-                className="jsx-878138145 u-full-width four columns"
+                className="jsx-2962072046 u-full-width four columns"
                 name="name"
                 onChange={[Function]}
                 placeholder="Name of grant"
@@ -440,7 +440,7 @@ ShallowWrapper {
               />
             </div>
             <textarea
-              className="jsx-878138145 u-full-width"
+              className="jsx-2962072046 u-full-width"
               name="notes"
               onChange={[Function]}
               placeholder="Notes ..."
@@ -454,7 +454,7 @@ ShallowWrapper {
               twoWeeks={true}
             />
             <input
-              className="jsx-878138145 button-primary"
+              className="jsx-2962072046 button-primary"
               data-test="purpose"
               type="submit"
               value="Submit"
@@ -464,11 +464,11 @@ ShallowWrapper {
             />
           </form>,
           <JSXStyle
-            css=".row.jsx-878138145{margin:12px 0;}.options.jsx-878138145{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}.options.jsx-878138145 label.jsx-878138145{margin:0;}.button-primary.jsx-878138145{margin-top:8px;}"
-            styleId="878138145"
+            css=".row.jsx-2962072046{margin:12px 0;}.options.jsx-2962072046{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}textarea.jsx-2962072046{resize:vertical;}.options.jsx-2962072046 label.jsx-2962072046{margin:0;}.button-primary.jsx-2962072046{margin-top:8px;}"
+            styleId="2962072046"
           />,
         ],
-        "className": "jsx-878138145",
+        "className": "jsx-2962072046",
       },
       "ref": null,
       "rendered": Array [
@@ -479,15 +479,15 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <h5
-                className="jsx-878138145"
+                className="jsx-2962072046"
               >
                 Add New Grant: 
               </h5>,
               <div
-                className="jsx-878138145 row"
+                className="jsx-2962072046 row"
               >
                 <input
-                  className="jsx-878138145 u-full-width four columns"
+                  className="jsx-2962072046 u-full-width four columns"
                   name="name"
                   onChange={[Function]}
                   placeholder="Name of grant"
@@ -521,7 +521,7 @@ ShallowWrapper {
                 />
               </div>,
               <textarea
-                className="jsx-878138145 u-full-width"
+                className="jsx-2962072046 u-full-width"
                 name="notes"
                 onChange={[Function]}
                 placeholder="Notes ..."
@@ -535,7 +535,7 @@ ShallowWrapper {
                 twoWeeks={true}
               />,
               <input
-                className="jsx-878138145 button-primary"
+                className="jsx-2962072046 button-primary"
                 data-test="purpose"
                 type="submit"
                 value="Submit"
@@ -544,7 +544,7 @@ ShallowWrapper {
                 message=""
               />,
             ],
-            "className": "jsx-878138145",
+            "className": "jsx-2962072046",
             "onSubmit": [Function],
           },
           "ref": null,
@@ -555,7 +555,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Add New Grant: ",
-                "className": "jsx-878138145",
+                "className": "jsx-2962072046",
               },
               "ref": null,
               "rendered": "Add New Grant: ",
@@ -568,7 +568,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <input
-                    className="jsx-878138145 u-full-width four columns"
+                    className="jsx-2962072046 u-full-width four columns"
                     name="name"
                     onChange={[Function]}
                     placeholder="Name of grant"
@@ -601,7 +601,7 @@ ShallowWrapper {
                     selected="general operations"
                   />,
                 ],
-                "className": "jsx-878138145 row",
+                "className": "jsx-2962072046 row",
               },
               "ref": null,
               "rendered": Array [
@@ -610,7 +610,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "className": "jsx-878138145 u-full-width four columns",
+                    "className": "jsx-2962072046 u-full-width four columns",
                     "name": "name",
                     "onChange": [Function],
                     "placeholder": "Name of grant",
@@ -684,7 +684,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "className": "jsx-878138145 u-full-width",
+                "className": "jsx-2962072046 u-full-width",
                 "name": "notes",
                 "onChange": [Function],
                 "placeholder": "Notes ...",
@@ -714,7 +714,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "className": "jsx-878138145 button-primary",
+                "className": "jsx-2962072046 button-primary",
                 "data-test": "purpose",
                 "type": "submit",
                 "value": "Submit",
@@ -742,8 +742,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "css": ".row.jsx-878138145{margin:12px 0;}.options.jsx-878138145{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}.options.jsx-878138145 label.jsx-878138145{margin:0;}.button-primary.jsx-878138145{margin-top:8px;}",
-            "styleId": "878138145",
+            "css": ".row.jsx-2962072046{margin:12px 0;}.options.jsx-2962072046{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));}textarea.jsx-2962072046{resize:vertical;}.options.jsx-2962072046 label.jsx-2962072046{margin:0;}.button-primary.jsx-2962072046{margin-top:8px;}",
+            "styleId": "2962072046",
           },
           "ref": null,
           "rendered": null,

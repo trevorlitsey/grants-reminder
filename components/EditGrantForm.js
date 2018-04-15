@@ -127,6 +127,10 @@ class EditGrantForm extends React.PureComponent {
 							cursor: pointer;
 						}
 
+						textarea {
+							resize: vertical;
+						}
+
 						.buttons {
 							margin-top: 8px;
 							display: flex;

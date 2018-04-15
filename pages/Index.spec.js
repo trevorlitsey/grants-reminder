@@ -16,15 +16,23 @@ describe('Index', () => {
 
 	it('should successfully add new grant', () => {
 		const instance = shallowRenderIndex().instance();
-		const grants = { twoMonths, oneMonth }
-		instance.setState({ grants })
+		const db = {
+			email: '',
+			purposes: {},
+			grants: { 
+				twoMonths, 
+				oneMonth
+			},
+		}
+		
+		instance.setState({ db })
 		const newGrant = {
 			...basicGrant,
 			id: null
 		}
 		instance.addNewGrant(newGrant);
 		// expect one more than before
-		expect(Object.keys(instance.state.grants).length).toEqual(3);
+		expect(Object.keys(instance.state.db.grants).length).toEqual(3);
 	})
 
 	it('should successfully update an existing grant', () => {
@@ -38,46 +46,59 @@ describe('Index', () => {
 		}
 		const { id } = updatedGrant;
 		instance.updateGrant(id, updatedGrant);
-		expect(instance.state.grants[id].name).toEqual(newGrantName);
+		expect(instance.state.db.grants[id].name).toEqual(newGrantName);
 	})
 
 	it('should successfully add a new purpose', () => {
 		const instance = shallowRenderIndex().instance();
 
-		const purposes = {
-			one: 'wow!',
-			two: 'check out this purpose!',
+		const db = {
+			grants: {},
+			email: '',
+			purposes: {
+				one: 'wow!',
+				two: 'check out this purpose!',
+			}
 		}
-		instance.setState({ purposes });
+		instance.setState({ db });
 
 		const newPurpose = 'what a great new purpose';
 		instance.addNewPurpose(newPurpose);
 
-		expect(Object.keys(instance.state.purposes).length).toEqual(3);
+		expect(Object.keys(instance.state.db.purposes).length).toEqual(3);
 	})
 
 	it('should successfully delete a purpose', () => {
 		const instance = shallowRenderIndex().instance();
 
-		const purposes = {
-			one: 'wow!',
-			two: 'check out this purpose!',
+		const db = {
+			email: '',
+			grants: {},
+			purposes: {
+				one: 'wow!',
+				two: 'check out this purpose!',
+			}
 		}
-		instance.setState({ purposes });
+		instance.setState({ db });
 
 		const id = 'one'
 		instance.deletePurpose(id);
 
 		// g'bye
-		expect(instance.state.purposes[id]).toBeNull();
+		expect(instance.state.db.purposes[id]).toBeNull();
 	})
 
 	it('should successfully update users email', () => {
 		const instance = shallowRenderIndex().instance();
-		instance.setState({ email: 'test@test.com' });
+		const db = {
+			grants: {},
+			purposes: {},
+			email: 'test@test.com',
+		}
+		instance.setState({ db });
 		const newEmail = 'litseyt@me.com';
 		instance.updateEmail(newEmail);
-		expect(instance.state.email).toEqual(newEmail);
+		expect(instance.state.db.email).toEqual(newEmail);
 	})
 
 })

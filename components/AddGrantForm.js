@@ -41,15 +41,17 @@ class AddGrantForm extends React.PureComponent {
 
 		const { date, name, purpose, notes, reminders } = { ...this.state.grant };
 
-		if (!name) return this.displayAlert('name of grant is required');
-
-		this.props.addNewGrant({
+		const grant = {
 			date: date.valueOf(),
-			name,
-			purpose,
-			notes,
-			reminders
-		});
+			name: name.trim(),
+			purpose: purpose.trim(),
+			notes: notes.trim(),
+			reminders,
+		}
+
+		if (!grant.name) return this.displayAlert('name of grant is required');
+
+		this.props.addNewGrant(grant);
 
 		// reset
 		this.setState({ grant: { ...blankGrant } });
@@ -120,6 +122,10 @@ class AddGrantForm extends React.PureComponent {
 					.options {
 						display: grid;
 						grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+					}
+
+					textarea {
+						resize: vertical;
 					}
 
 					.options label {

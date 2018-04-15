@@ -5,15 +5,20 @@ import convertObjToArr from './helpers/convertObjToArr';
 
 import EditGrantForm from './EditGrantForm';
 
-const GrantsTableRow = (props) => (
-	<tr className="card">
-		<td>{moment(props.date).format('LL')}</td>
-		<td className="grant-name">{props.name}</td>
-		<td>{props.purpose}</td>
-		<td className="notes">{props.notes}</td>
-		<td><a onClick={() => props.updateGrantToEdit(props.id)}>edit</a></td>
-	</tr>
-)
+const GrantsTableRow = (props) => {
+
+	const { date, name, purpose, notes, id } = props;
+
+	return (
+		<tr className="card">
+			<td>{moment(date).format('LL')}</td>
+			<td className="grant-name">{name}</td>
+			<td>{purpose}</td>
+			<td className="notes">{notes.length > 50 ? `${notes.slice(0, 50)} ...` : notes}</td>
+			<td><a onClick={() => props.updateGrantToEdit(id)}>edit</a></td>
+		</tr>
+	)
+}
 
 class GrantsTable extends React.PureComponent {
 	render() {

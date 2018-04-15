@@ -7,6 +7,18 @@ import makeOnChangeEvent from './helpers/tests/makeOnChangeEvent';
 
 import AddGrantForm from './AddGrantForm';
 
+const fakeEvent = {
+	preventDefault: () => { },
+}
+
+const expectedSubmittedGrant = {
+	name: basicGrant.name,
+	purpose: basicGrant.purpose,
+	notes: basicGrant.notes,
+	reminders: basicGrant.reminders,
+	date: basicGrant.date.valueOf(),
+}
+
 describe('AddGrantForm', () => {
 
 	it('should render without crashing', () => {
@@ -19,18 +31,26 @@ describe('AddGrantForm', () => {
 		expect(wrapper).toMatchSnapshot();
 	})
 
-	it('should reset state on successful submit', () => {
-		const e = {
-			preventDefault: () => { },
+	it('should call addNewGrant on submit', () => {
+		const grant = {
+			...basicGrant,
+			date: moment(basicGrant.date),
 		}
+		const instance = shallowrenderAddGrantForm().instance();
+		instance.setState({ grant })
+		instance.handleSubmit(fakeEvent)
+		expect(instance.props.addNewGrant.mock.calls.length).toBe(1);
+		expect(instance.props.addNewGrant.mock.calls[0][0]).toEqual(expectedSubmittedGrant);
+	})
+
+	it('should reset state on successful submit', () => {
 		const grantState = {
 			...basicGrant,
 			date: moment(basicGrant.date),
 		}
-		const wrapper = shallowrenderAddGrantForm();
-		const instance = wrapper.instance();
+		const instance = shallowrenderAddGrantForm().instance();
 		instance.setState({ grant: grantState })
-		instance.handleSubmit(e)
+		instance.handleSubmit(fakeEvent)
 		expect(instance.state.grant).toEqual(blankGrant);
 	})
 
@@ -38,9 +58,8 @@ describe('AddGrantForm', () => {
 		const e = {
 			preventDefault: () => { },
 		}
-		const wrapper = shallowrenderAddGrantForm();
-		const instance = wrapper.instance();
-		instance.handleSubmit(e);
+		const instance = shallowrenderAddGrantForm().instance();
+		instance.handleSubmit(fakeEvent);
 		expect(instance.state.alertMessage).toEqual('name of grant is required');
 	})
 
@@ -53,7 +72,7 @@ function shallowrenderAddGrantForm(props = {}) {
 			two: 'Education',
 			three: 'Special Projects',
 		},
-		addNewGrant: () => { },
+		addNewGrant: jest.fn(),
 		...props
 	}
 	return shallow(<AddGrantForm {...propsToUser} />)
