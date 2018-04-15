@@ -22,7 +22,7 @@ const Nav = (props) => {
 				max-width: 1000px;
 				display: flex;
 				justify-content: space-between;
-				margin: 0 auto;
+				margin: 0 auto 20px;
 				padding: 0 10px;
 				background: HSLA(200, 6%, 93%, 1.00);
 				color: black;

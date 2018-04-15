@@ -13,23 +13,26 @@ const Layout = (props) => (
 			<meta charSet="utf-8" />
 			<title>grantsreminder.com</title>
 		</Head>
-		<Nav user={props.user} />
 		{NormalizeCSS}
 		{SkeletonCSS}
-		<style jsx global>{`
-			body {
-				
-			}
-
-			.wrapper {
-				padding: 20px;
-				max-width: 1000px;
-				margin: 15px auto;
-			}
-		`}</style>
 		<div className="wrapper">
-			{props.children}
+			<Nav user={props.user} />
+			<div className="content">
+				{props.children}
+			</div>
 		</div>
+		<style jsx global>{`
+		
+		.wrapper {
+			background: white;
+			max-width: 1000px;
+			margin: auto;
+		}
+
+		.content {
+			padding: 20px;
+		}
+		`}</style>
 	</div>
 )
 
