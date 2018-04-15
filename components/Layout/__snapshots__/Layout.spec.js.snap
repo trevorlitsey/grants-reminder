@@ -62,7 +62,9 @@ ShallowWrapper {
           />
           <div
             className="jsx-448820226 content"
-          />
+          >
+            <Footer />
+          </div>
         </div>,
         <JSXStyle
           css=".wrapper{background:white;max-width:1000px;margin:auto;}.content{padding:20px;}"
@@ -177,7 +179,9 @@ ShallowWrapper {
             />,
             <div
               className="jsx-448820226 content"
-            />,
+            >
+              <Footer />
+            </div>,
           ],
           "className": "jsx-448820226 wrapper",
         },
@@ -202,11 +206,25 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": Array [
+                undefined,
+                <Footer />,
+              ],
               "className": "jsx-448820226 content",
             },
             "ref": null,
-            "rendered": null,
+            "rendered": Array [
+              undefined,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
             "type": "div",
           },
         ],
@@ -271,7 +289,9 @@ ShallowWrapper {
             />
             <div
               className="jsx-448820226 content"
-            />
+            >
+              <Footer />
+            </div>
           </div>,
           <JSXStyle
             css=".wrapper{background:white;max-width:1000px;margin:auto;}.content{padding:20px;}"
@@ -386,7 +406,9 @@ ShallowWrapper {
               />,
               <div
                 className="jsx-448820226 content"
-              />,
+              >
+                <Footer />
+              </div>,
             ],
             "className": "jsx-448820226 wrapper",
           },
@@ -411,11 +433,25 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": undefined,
+                "children": Array [
+                  undefined,
+                  <Footer />,
+                ],
                 "className": "jsx-448820226 content",
               },
               "ref": null,
-              "rendered": null,
+              "rendered": Array [
+                undefined,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
               "type": "div",
             },
           ],

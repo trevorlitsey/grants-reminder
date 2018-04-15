@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Footer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="jsx-853876180"
+        >
+          reminder emails are sent daily at 8am
+        </p>,
+        <JSXStyle
+          css="div.jsx-853876180{margin:28px;}p.jsx-853876180{color:HSLA(225,9%,74%,1.00);text-align:center;}"
+          styleId="853876180"
+        />,
+      ],
+      "className": "jsx-853876180",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "reminder emails are sent daily at 8am",
+          "className": "jsx-853876180",
+        },
+        "ref": null,
+        "rendered": "reminder emails are sent daily at 8am",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "css": "div.jsx-853876180{margin:28px;}p.jsx-853876180{color:HSLA(225,9%,74%,1.00);text-align:center;}",
+          "styleId": "853876180",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="jsx-853876180"
+          >
+            reminder emails are sent daily at 8am
+          </p>,
+          <JSXStyle
+            css="div.jsx-853876180{margin:28px;}p.jsx-853876180{color:HSLA(225,9%,74%,1.00);text-align:center;}"
+            styleId="853876180"
+          />,
+        ],
+        "className": "jsx-853876180",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "reminder emails are sent daily at 8am",
+            "className": "jsx-853876180",
+          },
+          "ref": null,
+          "rendered": "reminder emails are sent daily at 8am",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "css": "div.jsx-853876180{margin:28px;}p.jsx-853876180{color:HSLA(225,9%,74%,1.00);text-align:center;}",
+            "styleId": "853876180",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

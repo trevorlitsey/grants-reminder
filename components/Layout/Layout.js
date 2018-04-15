@@ -5,6 +5,7 @@ import NormalizeCSS from '../../CSS/NormalizeCSS';
 import SkeletonCSS from '../../CSS/SkeletonCSS';
 
 import Nav from './Nav';
+import Footer from './Footer';
 
 const Layout = (props) => (
 	<div>
@@ -19,6 +20,7 @@ const Layout = (props) => (
 			<Nav user={props.user} />
 			<div className="content">
 				{props.children}
+				<Footer />
 			</div>
 		</div>
 		<style jsx global>{`
