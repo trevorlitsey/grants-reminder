@@ -1,7 +1,7 @@
 import { object, func } from 'prop-types';
 
 import PurposeCard from './PurposeCard';
-import AddPurposeForm from './AddPurposeForm';
+import AddPurposeForm from '../Forms/Purposes/AddPurposeForm';
 
 const Purposes = (props) => {
 

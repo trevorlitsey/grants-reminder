@@ -1,9 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 import { shallow } from 'enzyme';
-import { basicGrant } from '../data/sampleGrants';
-
-import makeOnChangeEvent from './helpers/tests/makeOnChangeEvent';
+import { basicGrant } from '../../../data/sampleGrants';
 
 import EditGrantForm from './EditGrantForm';
 

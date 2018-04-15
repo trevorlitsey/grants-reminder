@@ -1,8 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import makeOnChangeEvent from './helpers/tests/makeOnChangeEvent';
-
 import UpdateEmailForm from './UpdateEmailForm';
 
 // setError(alertMsg) {
@@ -61,4 +59,15 @@ function shallowRenderUpdateEmailForm(props = {}) {
 		...props,
 	}
 	return shallow(<UpdateEmailForm {...propsToUser} />)
+}
+
+function makeOnChangeEvent(name, value) {
+	const event = {
+		preventDefault: () => { },
+		target: {
+			name,
+			value,
+		}
+	}
+	return event;
 }

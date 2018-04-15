@@ -1,4 +1,4 @@
-import { signIn } from '../base';
+import { signIn } from '../../../base';
 
 const LoginForm = () => (
 	<div>

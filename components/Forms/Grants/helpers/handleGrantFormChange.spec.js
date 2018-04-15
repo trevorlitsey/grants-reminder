@@ -1,9 +1,8 @@
 import { shallow } from 'enzyme';
 import moment from 'moment';
-import makeOnChangeEvent from './tests/makeOnChangeEvent';
 import handleGrantFormChange from './handleGrantFormChange';
 
-import { basicGrant } from '../../data/sampleGrants';
+import { basicGrant } from '../../../../data/sampleGrants';
 
 import AddGrantForm from '../AddGrantForm';
 
@@ -91,4 +90,15 @@ function shallowrenderAddGrantForm(props = {}) {
 		...props
 	}
 	return shallow(<AddGrantForm {...propsToUser} />)
+}
+
+function makeOnChangeEvent(name, value) {
+	const event = {
+		preventDefault: () => { },
+		target: {
+			name,
+			value,
+		}
+	}
+	return event;
 }

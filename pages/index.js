@@ -3,11 +3,11 @@ import firebase from 'firebase';
 import { auth, base, provider, db } from '../base';
 
 import Layout from '../components/Layout/Layout';
-import LoginForm from '../components/LoginForm';
+import LoginForm from '../components/Forms/Login/LoginForm';
 import GrantsTable from '../components/GrantsTable';
-import AddGrantForm from '../components/AddGrantForm';
-import Purposes from '../components/Purposes';
-import UpdateEmailForm from '../components/UpdateEmailForm';
+import { AddGrantForm } from '../components/Forms/Grants';
+import Purposes from '../components/Purposes/Purposes';
+import UpdateEmailForm from '../components/Forms/Email/UpdateEmailForm';
 
 class Index extends React.PureComponent {
 

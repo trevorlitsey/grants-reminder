@@ -1,7 +1,7 @@
 import { string, func } from 'prop-types';
 import validator from 'email-validator';
 
-import FormAlert from './FormAlert';
+import FormAlert from '../shared/FormAlert';
 
 class UpdateEmailForm extends React.PureComponent {
 

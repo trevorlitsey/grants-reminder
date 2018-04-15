@@ -3,7 +3,7 @@ import Link from 'next/link';
 import moment from 'moment';
 import convertObjToArr from './helpers/convertObjToArr';
 
-import EditGrantForm from './EditGrantForm';
+import { EditGrantForm } from './Forms/Grants';
 
 const GrantsTableRow = (props) => {
 

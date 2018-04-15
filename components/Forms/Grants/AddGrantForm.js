@@ -8,9 +8,9 @@ import DayOptions from './DayOptions';
 import YearOptions from './YearOptions';
 import PurposeOptions from './PurposeOptions';
 import ReminderOptions from './ReminderOptions';
-import FormAlert from './FormAlert';
+import FormAlert from '../shared/FormAlert';
 
-import { blankGrant } from '../data/sampleGrants';
+import { blankGrant } from '../../../data/sampleGrants';
 
 class AddGrantForm extends React.PureComponent {
 
