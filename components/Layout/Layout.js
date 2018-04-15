@@ -1,8 +1,8 @@
 import { object } from 'prop-types';
 import Head from 'next/head';
 
-import NormalizeCSS from '../CSS/NormalizeCSS';
-import SkeletonCSS from '../CSS/SkeletonCSS';
+import NormalizeCSS from '../../CSS/NormalizeCSS';
+import SkeletonCSS from '../../CSS/SkeletonCSS';
 
 import Nav from './Nav';
 

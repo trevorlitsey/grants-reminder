@@ -2,7 +2,7 @@ import React from 'react';
 import { object } from 'prop-types';
 import Link from 'next/link';
 
-import { signOut } from '../base';
+import { signOut } from '../../base';
 
 const Nav = (props) => {
 
@@ -14,20 +14,24 @@ const Nav = (props) => {
 				<Link href="/">
 					<a><li>Home</li></a>
 				</Link>
-				{user && <li onClick={signOut} data-test="sign-out">Sign Out</li>}
+				{user && <a><li onClick={signOut} data-test="sign-out">Sign Out</li></a>}
 			</ul>
 			<style jsx>{`
+
+			div {
+				border-top: 4px solid HSLA(206, 100%, 50%, .8);
+			}
+
 			ul {
-				border-top: 8px solid HSLA(206, 100%, 50%, .8);
+				border-top: 1px solid HSLA(0, 0%, 87%, .7);
+				border-bottom: 1px solid HSLA(0, 0%, 87%, .7);
 				max-width: 1000px;
 				display: flex;
 				justify-content: space-between;
-				margin: 0 auto 20px;
+				margin: 0 auto;
 				padding: 0 10px;
-				background: HSLA(200, 6%, 93%, 1.00);
 				color: black;
 				font-weight: bold;
-				// text-transform: uppercase;
 			}
 			
       li {

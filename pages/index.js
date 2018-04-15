@@ -2,8 +2,7 @@ import uniqid from 'uniqid';
 import firebase from 'firebase';
 import { auth, base, provider, db } from '../base';
 
-import Nav from '../components/Nav';
-import Layout from '../components/Layout';
+import Layout from '../components/Layout/Layout';
 import LoginForm from '../components/LoginForm';
 import GrantsTable from '../components/GrantsTable';
 import AddGrantForm from '../components/AddGrantForm';
@@ -73,7 +72,7 @@ class Index extends React.PureComponent {
 		base.removeBinding(this.emailRef);
 	}
 
-	addNewGrant = (grant, id = uniqid()) => {				
+	addNewGrant = (grant, id = uniqid()) => {
 		const db = { ...this.state.db };
 		db.grants[id] = {
 			...grant,
@@ -92,7 +91,7 @@ class Index extends React.PureComponent {
 	}
 
 	addNewPurpose = (newPurpose, id = uniqid()) => {
-		const db = {...this.state.db};
+		const db = { ...this.state.db };
 		db.purposes[id] = newPurpose;
 		this.setState({ db });
 	}
@@ -110,7 +109,7 @@ class Index extends React.PureComponent {
 	}
 
 	render() {
-		
+
 		if (!this.state.user) {
 			return (
 				<Layout>
