@@ -16,8 +16,8 @@ const Layout = (props) => (
 		</Head>
 		{NormalizeCSS}
 		{SkeletonCSS}
+		<Nav user={props.user} />
 		<div className="wrapper">
-			<Nav user={props.user} />
 			<div className="content">
 				{props.children}
 				<Footer />

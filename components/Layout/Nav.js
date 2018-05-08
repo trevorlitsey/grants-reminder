@@ -12,7 +12,7 @@ const Nav = (props) => {
 		<div>
 			<ul>
 				<Link href="/">
-					<a><li>Home</li></a>
+					<a><li>GrantsReminder</li></a>
 				</Link>
 				{user && <a><li onClick={signOut} data-test="sign-out">Sign Out</li></a>}
 			</ul>
@@ -25,7 +25,6 @@ const Nav = (props) => {
 			ul {
 				border-top: 1px solid HSLA(0, 0%, 87%, .7);
 				border-bottom: 1px solid HSLA(0, 0%, 87%, .7);
-				max-width: 1000px;
 				display: flex;
 				justify-content: space-between;
 				margin: 0 auto;
