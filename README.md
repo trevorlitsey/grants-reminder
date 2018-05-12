@@ -4,7 +4,6 @@ Single-page app for organizing grant proposal deadlines. Sends automated emails 
 
 ## Getting Started
 ```````
-git clone
 npm install
 npm run start:dev
 --> localhost:3000
