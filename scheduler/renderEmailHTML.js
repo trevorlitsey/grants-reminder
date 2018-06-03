@@ -1,4 +1,4 @@
-const moment = require('moment');
+const moment = require("moment");
 
 const header = `
 	<head>
@@ -9,21 +9,22 @@ const header = `
 	</head>
 
 	<body>
-		<div class="banner">~~grantsreminder.com~~</div>
+		<div class="banner">grantsreminder.com</div>
 		<div class="wrapper">
 			<p>Hello!</p>
-	`
+	`;
 
-renderGrantDetails = (grant) =>
-	`<li><strong>${moment(grant.date).format('LL')} –– ${grant.name}</strong></li>`
+renderGrantDetails = grant =>
+  `<li><strong>${moment(grant.date).format("LL")} –– ${
+    grant.name
+  }</strong></li>`;
 
-
-renderMsg = (grants) =>
-	`	<p> You have some grant deadlines coming up:</p >
+renderMsg = grants =>
+  `	<p> You have some grant deadlines coming up:</p >
 		<ul>
-			${grants.map(renderGrantDetails).join('')}
+			${grants.map(renderGrantDetails).join("")}
 		</ul>
-	`
+	`;
 
 const footer = `
 			<p> best,
@@ -124,9 +125,8 @@ const footer = `
 	</body >
 
 	</html >
-			`
+			`;
 
-renderEmailHTML = (grants) =>
-	header + renderMsg(grants) + footer;
+renderEmailHTML = grants => header + renderMsg(grants) + footer;
 
 module.exports = renderEmailHTML;
